@@ -4,6 +4,8 @@ import AboutUs from "@/pages/home/section/AboutUs";
 import Affirmation from "@/pages/home/section/Affirmation";
 import Teacher from "@/pages/home/section/Teacher";
 import ClassList from "@/pages/home/section/ClassList";
+import NewsSection from "@/pages/home/section/NewsSection";
+import ContactSection from "@/pages/home/section/ContactSection";
 
 const HomePage = () => {
 	return (
@@ -15,6 +17,8 @@ const HomePage = () => {
 				<Affirmation />
 				<Teacher />
 				<ClassList />
+				<NewsSection />
+				<ContactSection />
 			</div>
 		</div>
 	);
