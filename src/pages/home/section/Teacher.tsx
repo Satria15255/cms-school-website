@@ -4,10 +4,10 @@ const TeacherSection = () => {
 	return (
 		<main className="h-screen flex flex-col justify-center items-center space-y-8 w-full bg-white">
 			<header className="flex flex-col items-center space-y-3">
-				<p className="text-sm font-semibold text-[#021B3E]">
+				<p className="text-sm font-semibold text-[#B8890B] ">
 					KETELADANAN GURU
 				</p>
-				<h1 className="text-5xl font-serif ">
+				<h1 className="text-5xl font-serif  text-[#021B3E]">
 					Pendidik & Tenaga Kependidikan
 				</h1>
 				<p className="text-lg max-w-lg text-center text-gray-700">

@@ -3,6 +3,7 @@ import Summary from "@/pages/home/section/Summary";
 import AboutUs from "@/pages/home/section/AboutUs";
 import Affirmation from "@/pages/home/section/Affirmation";
 import Teacher from "@/pages/home/section/Teacher";
+import ClassList from "@/pages/home/section/ClassList";
 
 const HomePage = () => {
 	return (
@@ -13,6 +14,7 @@ const HomePage = () => {
 				<AboutUs />
 				<Affirmation />
 				<Teacher />
+				<ClassList />
 			</div>
 		</div>
 	);
