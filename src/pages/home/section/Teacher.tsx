@@ -2,7 +2,7 @@ import { Teacher } from "@/datas/TenagaPendidik";
 
 const TeacherSection = () => {
 	return (
-		<main className="h-auto lg:h-screen p-5 flex flex-col justify-center items-center space-y-8 w-full bg-white">
+		<main className="h-auto lg:h-screen p-5 flex flex-col justify-center lg:items-center space-y-8 w-full bg-white">
 			<header className="flex flex-col lg:items-center space-y-3">
 				<p className="text-sm font-semibold text-[#B8890B] ">
 					KETELADANAN GURU
@@ -17,12 +17,12 @@ const TeacherSection = () => {
 			</header>
 			<section className="grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-5 w-full place-items-center lg:px-12">
 				{Teacher.map((t) => (
-					<div className="bg-white flex flex-col gap-5 p-2 items-center justify-center h-auto py-4 lg:py-12 w-full lg:w-100 rounded-xl border border-gray-200 lg:shadow-lg">
+					<div className="bg-white flex flex-col gap-5 p-2 items-center justify-center h-auto py-4 lg:py-12 w-full lg:w-120 rounded-xl border border-gray-200 lg:shadow-lg">
 						<div className="rounded-full h-15 lg:h-30 w-15 lg:w-30 bg-blue-100">
 							<img src="" alt="" />
 						</div>
 						<div className="text-center flex flex-col items-center gap-2">
-							<p className="text-sm lg:text-lg font-semibold text-[#021B3E]">
+							<p className="text-sm lg:text-xl font-semibold text-[#021B3E]">
 								{t.name}
 							</p>
 

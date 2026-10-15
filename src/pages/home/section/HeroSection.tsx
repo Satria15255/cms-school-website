@@ -5,7 +5,7 @@ import { PiBookOpenUserBold } from "react-icons/pi";
 
 const HeroSection = () => {
 	return (
-		<main className="grid grid-cols-1 md:grid-cols-2 h-auto pt-12 md:mt-12 lg:h-screen place-items-center">
+		<main className="grid grid-cols-1 md:grid-cols-2 h-auto pt-12 md:mt-12  md:py-12 lg:h-screen place-items-center">
 			<div className="h-full  flex flex-col justify-center space-y-4 w-full p-5">
 				<p className="text-xs lg:text-sm font-semibold flex items-center gap-1 lg:gap-3">
 					<span className="flex text-[#D5A32C] text-xs lg:text-3xl">
@@ -42,15 +42,15 @@ const HeroSection = () => {
 					alt="heroImage"
 					className="rounded-lg w-full"
 				/>
-				<div className="absolute  bottom-8 left-8 bg-white w-full lg:w-1/2 rounded-lg flex items-center max-w-xs gap-5 p-3 lg:p-5">
+				<div className="absolute  bottom-8 left-8 bg-white w-full lg:w-1/2  xl:w-full rounded-lg flex items-center max-w-xs lg:max-w-3xl gap-5 p-3 lg:p-5">
 					<div className="text-[#F4BF46] text-3xl">
 						<PiBookOpenUserBold />
 					</div>
 					<div className="flex flex-col gap-1">
-						<p className="text-sm lg:text-xl text-[#021B3E]">
+						<p className="text-sm lg:text-xl xl:text-3xl text-[#021B3E]">
 							Ruang Belajar Kolaboratif
 						</p>
-						<p className="text-xs lg:text-sm text-gray-400">
+						<p className="text-xs lg:text-sm xl:text-lg text-gray-400">
 							Mendukung eksplorasi literasi dan diskusi kelompok
 						</p>
 					</div>

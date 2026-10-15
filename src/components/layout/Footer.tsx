@@ -3,35 +3,37 @@ import { LuClock, LuMail } from "react-icons/lu";
 
 const Footer = () => {
 	return (
-		<div className="bg-[#021B3E] min-h-50  lg:p-12 w-full">
+		<div className="bg-[#021B3E] min-h-50   w-full">
 			<div className="grid grid-cols-1 md:grid-cols-3 h-full w-full p-5 space-y-4 justify-between items-start">
-				<div className="flex flex-col gap-3 text-white max-w-2xl">
-					<h1 className="text-3xl lg:text-5xl flex flex-col font-semibold">
+				<div className="flex flex-col gap-3 text-white max-w-2xl md:h-10">
+					<h1 className="text-3xl md:text-xl lg:text-5xl flex flex-col font-semibold">
 						SMP NUSANTARA
-						<span className="text-lg font-semibold text-[#F4BF46]">
+						<span className="text-lg md:text-sm lg:text-lg font-semibold text-[#F4BF46]">
 							{" "}
 							UNGGUL & BERKARAKTER
 						</span>
 					</h1>
-					<p className="text-sm lg:text-xl max-w-lg ">
+					<p className="text-sm md:text-xs lg:lg:text-xl max-w-lg ">
 						{" "}
 						Mendidik generasi muda berakhlak mulia, berprestasi
 						akademik tinggi, serta berwawasan global berlandaskan
 						kearifan budaya nasional.
 					</p>
 				</div>
-				<div className="flex flex-col lg:pl-12 gap-3 text-white text-sm lg:text-lg">
-					<h1 className="text-2xl lg:text-3xl font-semibold">
+				<div className="flex flex-col lg:pl-12 md:items-center text-left gap-3 text-white text-sm lg:text-lg">
+					<h1 className="text-2xl md:text-xl lg:text-3xl font-semibold h-10">
 						Tautan
 					</h1>
-					<ul>Home</ul>
-					<ul>About Us</ul>
-					<ul>Classes</ul>
-					<ul>News</ul>
-					<ul>Contact</ul>
+					<div className="text-left space-y-2 text-sm md:text-xs lg:text-sm">
+						<ul>Home</ul>
+						<ul>About Us</ul>
+						<ul>Classes</ul>
+						<ul>News</ul>
+						<ul>Contact</ul>
+					</div>
 				</div>
-				<div className="flex flex-col gap-3 text-white text-sm lg:text-lg">
-					<h1 className="text-2xl lg:text-3xl font-semibold">
+				<div className="flex flex-col gap-3 text-white text-sm md:text-xs lg:text-lg">
+					<h1 className="text-2xl md:text-xl lg:text-3xl font-semibold h-10">
 						Kontak & Jam Kerja
 					</h1>
 					<ul className="flex gap-1 items-center">
@@ -60,7 +62,7 @@ const Footer = () => {
 					</ul>
 				</div>
 			</div>
-			<div className="flex flex-col md:flex-row w-full text-xs md:text-sm items-center  justify-between py-5  border-t text-gray-200">
+			<div className="flex flex-col md:flex-row w-full text-xs lg:text-sm items-center px-4 justify-between py-5  border-t text-gray-200">
 				<p>
 					@ 2026 SMP Nusantara. Hak Cipta di Lindungi Undang - undang
 				</p>

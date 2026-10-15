@@ -4,7 +4,7 @@ import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 const ClassList = () => {
 	return (
-		<main className="h-auto lg:h-screen p-5 flex flex-col justify-center items-center space-y-8 w-full bg-[#EBF1FF]">
+		<main className="h-auto lg:h-screen p-5 flex flex-col justify-center lg:items-center space-y-8 w-full bg-[#EBF1FF]">
 			<header className="flex flex-col lg:items-center space-y-3">
 				<p className="text-sm font-semibold text-[#B8890B] ">
 					JENJANG PEMBINAAN

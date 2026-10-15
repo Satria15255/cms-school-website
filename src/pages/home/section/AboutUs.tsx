@@ -4,7 +4,7 @@ import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 const AboutUs = () => {
 	return (
-		<main className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-screen place-items-center">
+		<main className="grid grid-cols-1 lg:grid-cols-2 h-auto  md:py-12 lg:py-2 lg:h-screen place-items-center">
 			<div className="p-5 w-full">
 				<img
 					src="/aboutUsImage.png"
@@ -37,52 +37,52 @@ const AboutUs = () => {
 					teknologi.
 				</p>
 				<div className="space-y-3 lg:space-y-2 text-sm">
-					<ul className="flex gap-3 border  border-gray-200 rounded-lg p-3 items-center">
+					<ul className="flex gap-3 border lg:border-none border-gray-200 rounded-lg p-3 items-center">
 						<div className="p-1 flex items-center justify-center bg-[#FFEFD5] rounded-full">
 							<IoCheckmarkSharp />
 						</div>
 						<div className="flex flex-col gap1">
-							<p className="text-sm font-semibold">
+							<p className="text-sm lg:text-xl font-semibold">
 								Kurikulum Terpadu & Penguatan Karakter Profil
 								Pelajar
 							</p>
-							<p className="text-xs">
+							<p className="text-xs lg:text-sm">
 								Fokus pembentukan karakter moral dan penalaran
 								kritis terarah.
 							</p>
 						</div>
 					</ul>
-					<ul className="flex gap-3 border  border-gray-200 rounded-lg p-3 items-center">
+					<ul className="flex gap-3 border lg:border-none border-gray-200 rounded-lg p-3 items-center">
 						<div className="p-1 flex items-center justify-center bg-[#FFEFD5] rounded-full">
 							<IoCheckmarkSharp />
 						</div>
 						<div className="flex flex-col gap1">
-							<p className="text-sm font-semibold">
+							<p className="text-sm lg:text-xl font-semibold">
 								Pendampingan Konseling & Pengembangan Minat
 								Siswa Terstruktur
 							</p>
-							<p className="text-xs">
+							<p className="text-xs  lg:text-sm">
 								Wali kelas dan guru BK memantau dinamika
 								psikososial remaja.
 							</p>
 						</div>
 					</ul>
-					<ul className="flex gap-3 border  border-gray-200 rounded-lg p-3 items-center">
+					<ul className="flex gap-3 border lg:border-none  border-gray-200 rounded-lg p-3 items-center">
 						<div className="p-1 flex items-center justify-center bg-[#FFEFD5] rounded-full">
 							<IoCheckmarkSharp />
 						</div>
 						<div className="flex flex-col gap1">
-							<p className="text-sm font-semibold">
+							<p className="text-sm   lg:text-xl font-semibold">
 								Fasilitas Belajar Lengkap & Nyaman
 							</p>
-							<p className="text-xs">
+							<p className="text-xs  lg:text-sm">
 								Laboratorium sains mutakhir, studio komputer,
 								dan e-library.
 							</p>
 						</div>
 					</ul>
 				</div>
-				<div className="w-full">
+				<div className="w-full lg:w-1/2">
 					<button className="w-full justify-center flex gap-2 items-center px-6 py-3 bg-[#EBF1FF] text-sm lg:text-lg  rounded-lg font-semibold">
 						Baca Profil Sekolah <HiOutlineArrowSmallRight />
 					</button>
