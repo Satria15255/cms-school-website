@@ -5,7 +5,7 @@ import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 const AboutUs = () => {
 	return (
 		<main className="grid grid-cols-2 h-screen place-items-center">
-			<div className="p-2 w-4/5">
+			<div className="p-5 w-full">
 				<img
 					src="/aboutUsImage.png"
 					alt="aboutUs"
