@@ -1,7 +1,8 @@
 import { PiStudentDuotone } from "react-icons/pi";
 import { FaHandHoldingHeart } from "react-icons/fa";
-import { IoShieldOutline } from "react-icons/io5";
+import { IoShieldHalfOutline } from "react-icons/io5";
 import { GiBookmarklet } from "react-icons/gi";
+import { HiUserGroup } from "react-icons/hi2";
 
 const summary = [
 	{
@@ -9,40 +10,51 @@ const summary = [
 		title: "Pendidikan Holistik",
 		description:
 			"Membina akhlak, intelektual, dan ketangguhan mental siswa SMP secara seimbang dan berkelanjutan.",
+		description2: "Membina akhlak mulia, intelektual, dan mental tangguh.",
 	},
 	{
-		icon: <FaHandHoldingHeart />,
+		icon: <HiUserGroup />,
 		title: "Pendidik Berdedikasi",
 		description:
 			"Guru berkualifikasi yang mendampingi dengan teliti, menginspirasi, dan penuh empati pada tiap fase tumbuh kembang.",
+		description2: "Pendidik profesional yang mengasuh secara personal.",
 	},
 	{
-		icon: <IoShieldOutline />,
+		icon: <IoShieldHalfOutline />,
 		title: "Lingkungan Aman & Nyaman",
 		description:
 			"Sarana belajar kondusif, inklusif, ramah anak, dan mengutamakan kesejahteraan mental para pelajar.",
+		description2: "Kampus hijau, ramah anak, dan bebas perundungan.",
 	},
 	{
 		icon: <GiBookmarklet />,
 		title: "Pembelajaran Adaptif",
 		description:
 			"Kurikulum nasional yang diperkaya literasi digital, sains terapan, serta kepemimpinan masa depan.",
+		description2: "Integrasi literasi sains, teknologi, dan kepemimpinan.",
 	},
 ];
 
 const Summary = () => {
 	return (
-		<main className="bg-[#1B3054] h-120 flex items-center">
-			<div className="grid grid-cols-4 space-x-4 px-12">
+		<main className="bg-[#1B3054] h-auto py-7 lg:h-120 flex items-center">
+			<div className="grid grid-cols-2 lg:grid-cols-4 gap-3 p-3 lg:space-x-4 lg:px-12">
 				{summary.map((s) => (
-					<div className="bg-[#021B3E] flex flex-col space-y-1 p-5 rounded-lg h-70">
+					<div className="bg-[#021B3E] flex flex-col space-y-1 p-5 rounded-lg h-55 md:h-70">
 						<div className="bg-[#1B3054] p-2 w-15 h-15 flex justify-center rounded-lg items-center">
-							<p className=" text-[#F4BF46] text-4xl">{s.icon}</p>
+							<p className=" text-[#F4BF46] text-2xl md:text-4xl">
+								{s.icon}
+							</p>
 						</div>
-						<p className=" text-white text-3xl font-semibold">
+						<p className=" text-white text-md lg:text-3xl font-semibold">
 							{s.title}
 						</p>
-						<p className="text-lg text-gray-300">{s.description}</p>
+						<p className="hidden md:block text-sm lg:text-lg text-gray-300">
+							{s.description}
+						</p>
+						<p className="text-sm lg:text-lg md:hidden text-gray-300">
+							{s.description2}
+						</p>
 					</div>
 				))}
 			</div>
