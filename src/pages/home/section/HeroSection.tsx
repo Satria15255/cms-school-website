@@ -5,7 +5,7 @@ import { PiBookOpenUserBold } from "react-icons/pi";
 
 const HeroSection = () => {
 	return (
-		<main className="grid grid-cols-1 md:grid-cols-2 h-auto pt-12 lg:h-screen place-items-center">
+		<main className="grid grid-cols-1 md:grid-cols-2 h-auto pt-12 md:mt-12 lg:h-screen place-items-center">
 			<div className="h-full  flex flex-col justify-center space-y-4 w-full p-5">
 				<p className="text-xs lg:text-sm font-semibold flex items-center gap-1 lg:gap-3">
 					<span className="flex text-[#D5A32C] text-xs lg:text-3xl">
@@ -27,11 +27,11 @@ const HeroSection = () => {
 					menggali potensi setiap siswa jenjang SMP menuju karakter
 					unggul dan berdaya saing.
 				</p>
-				<div className="flex flex-col md:flex-row gap-3">
-					<button className="flex gap-2 justify-center items-center px-6 py-3 bg-[#021B3E] text-sm lg:text-lg text-white rounded-lg font-semibold">
+				<div className="flex flex-col text-sm md:text-xs lg:text-lg md:flex-row gap-3">
+					<button className="flex gap-2 justify-center items-center px-6 py-3 bg-[#021B3E]  text-white rounded-lg font-semibold">
 						Kenali Sekolah <HiOutlineArrowSmallRight />
 					</button>
-					<button className="flex gap-2 justify-center items-center px-6 py-3 bg-[#F4BF46] text-sm lg:text-lg text-black rounded-lg font-semibold">
+					<button className="flex gap-2 justify-center items-center px-6 py-3 bg-[#F4BF46]  text-black rounded-lg font-semibold">
 						Hubungi Sekolah <MdOutlineMessage />
 					</button>
 				</div>
