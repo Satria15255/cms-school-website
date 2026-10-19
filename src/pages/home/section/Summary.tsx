@@ -34,7 +34,6 @@ const summary = [
 		description2: "Integrasi literasi sains, teknologi, dan kepemimpinan.",
 	},
 ];
-
 const Summary = () => {
 	return (
 		<main className="bg-[#1B3054] h-auto py-7 lg:h-140 flex items-center">

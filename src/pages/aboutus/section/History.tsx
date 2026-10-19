@@ -4,7 +4,7 @@ import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 const History = () => {
 	return (
-		<main className="grid grid-cols-2 h-screen place-items-center px-14">
+		<main className="grid grid-cols-2 h-auto place-items-center px-14 py-12">
 			<div className="space-y-3 ">
 				<p className="text-sm font-semibold flex items-center gap-3 text-[#B8890B]">
 					HISTORY & DEDIKASI
