@@ -28,7 +28,7 @@ const History = () => {
 					saing global.
 				</p>
 			</div>
-			<div className=" w-4/5">
+			<div className=" w-full pl-3">
 				<img
 					src="/aboutUsImage.png"
 					alt="aboutUs"
