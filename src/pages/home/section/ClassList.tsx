@@ -1,4 +1,4 @@
-import { ClassInfo } from "@/datas/ClassList";
+import { ClassDetails } from "@/datas/ClassList";
 import { HiOutlineUser } from "react-icons/hi";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
@@ -19,19 +19,16 @@ const ClassList = () => {
 				</p>
 			</header>
 			<section className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full place-items-center lg:px-12">
-				{ClassInfo.map((c) => (
+				{ClassDetails.map((c) => (
 					<div className="w-full h-60 lg:h-90 bg-white rounded-xl p-3 lg:p-6 flex flex-col justify-between">
 						<div className="flex justify-between">
 							<p className="font-semibold text-sm text-[#B8890B]">
 								TINGKAT {c.tingkat}
 							</p>
-							<p className="bg-[#EBF1FF] w-auto px-2 text-sm  rounded-full">
-								{c.subClass}
-							</p>
 						</div>
 						<div className="flex flex-col space-y-2">
 							<p className="text-[#021B3E] text-2xl font-serif">
-								Tingkat Kelas {c.kelas}
+								Tingkat Kelas {c.symbol}
 							</p>
 							<p className="text-sm lg:text-lg text-gray-500 max-w-md">
 								{c.description}
@@ -46,7 +43,7 @@ const ClassList = () => {
 									Koordinator Wali Kelas
 								</p>
 								<p className="text-sm text-[#021B3E] font-semibold">
-									{c.koor}
+									{c.koord}
 								</p>
 							</div>
 						</div>
