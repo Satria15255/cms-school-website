@@ -1,6 +1,7 @@
 import Header from "./section/Header";
 import ClassSection from "./section/ClassSection";
 import StandarPembinaan from "./section/StandardPembinaan";
+import Contact from "@/pages/home/section/ContactSection";
 
 const ClassList = () => {
 	return (
@@ -8,6 +9,7 @@ const ClassList = () => {
 			<Header />
 			<ClassSection />
 			<StandarPembinaan />
+			<Contact />
 		</main>
 	);
 };
