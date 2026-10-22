@@ -29,7 +29,7 @@ const NewsSection = () => {
 							<div className="w-full  h-50  md:h-40 lg:h-70 bg-gray-200 rounded-t-xl"></div>
 							<div className="absolute  rounded-lg  inset-0 top-2  left-2">
 								<p className="bg-[#021B3E] w-30 text-sm lg:text-lg text-white py-1 rounded-xl text-center ">
-									{n.label}
+									{n.category}
 								</p>
 							</div>
 						</div>

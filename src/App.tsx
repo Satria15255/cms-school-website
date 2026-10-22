@@ -4,6 +4,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import AboutUsPage from "@/pages/aboutus/AboutUsPage";
 import ClassListPage from "@/pages/classList/ClassListPage";
+import NewsPage from "@/pages/news/NewsPage";
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 
@@ -16,6 +17,7 @@ function App() {
 
         <Route path="/about-us" element={<AboutUsPage />} />
         <Route path="/class-list" element={<ClassListPage />} />
+        <Route path="/news" element={<NewsPage />} />
       </Routes>
 
       <Footer />
