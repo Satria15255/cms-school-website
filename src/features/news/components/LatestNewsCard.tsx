@@ -12,7 +12,10 @@ const LatestNews = ({ news }) => {
 						<p className="text-[#021B3E]">{news.date}</p>
 						<span className="w-2 h-2 bg-[#021B3E]  flex items-center justify-center rounded-full"></span>
 
-						<p className="text-gray-500">{news.category}</p>
+						<p className="text-gray-700">{news.category}</p>
+						<span className="w-2 h-2 bg-[#021B3E]  flex items-center justify-center rounded-full"></span>
+
+						<span className="text-gray-700 ">Just Posted!</span>
 					</div>
 					<h1 className="text-5xl font-serif text-[#021B3E]">
 						{news.title}
