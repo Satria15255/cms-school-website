@@ -1,10 +1,18 @@
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
+import { createSlug } from "@/utils/createSlug";
+import { Link } from "react-router-dom";
 
 const NewsCard = ({ data }) => {
 	return (
 		<main className="w-full h-100 md:h-80 lg:h-140 bg-white rounded-lg  flex flex-col justify-between border border-gray-200 shadow-lg">
 			<div className="relative">
-				<div className="w-full  h-50  md:h-40 lg:h-70 bg-gray-200 rounded-t-xl"></div>
+				<div className="w-full  h-50  md:h-40 lg:h-70 bg-gray-200 rounded-t-xl">
+					<img
+						src="/news1.jfif"
+						alt=""
+						className="w-full h-full rounded-t-xl"
+					/>
+				</div>
 				<div className="absolute  rounded-lg  inset-0 top-2  left-2">
 					<p className="bg-[#021B3E] max-w-50 text-sm lg:text-lg text-white py-2 rounded-xl text-center ">
 						{data.category}
@@ -26,11 +34,12 @@ const NewsCard = ({ data }) => {
 						{data.description}
 					</p>
 				</div>
-				<div>
-					<button className="text-[#021B3E] text-xs lg:text-lg flex items-center gap-1 font-semibold">
-						Baca Selengkapnya <HiOutlineArrowSmallRight />
-					</button>
-				</div>
+				<Link
+					to={`/news/${createSlug(data.title)}`}
+					className="text-[#021B3E] text-xs lg:text-lg flex items-center gap-1 font-semibold"
+				>
+					Baca Selengkapnya <HiOutlineArrowSmallRight />
+				</Link>
 			</div>
 		</main>
 	);
