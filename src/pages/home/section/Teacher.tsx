@@ -17,12 +17,12 @@ const TeacherSection = () => {
 			</header>
 			<section className="grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-5 w-full place-items-center lg:px-12">
 				{Teacher.map((t) => (
-					<div className="bg-white flex flex-col gap-5 p-2 items-center justify-center h-auto py-4 lg:py-12 w-full lg:w-120 rounded-xl border border-gray-200 lg:shadow-lg">
+					<div className="bg-white flex flex-col gap-5 p-2 items-center justify-center min-h-50 lg:h-auto py-4 lg:py-12 w-full lg:w-120 rounded-xl border border-gray-200 lg:shadow-lg">
 						<div className="rounded-full h-15 lg:h-30 w-15 lg:w-30 bg-blue-100">
 							<img src="" alt="" />
 						</div>
 						<div className="text-center flex flex-col items-center gap-2">
-							<p className="text-sm lg:text-xl font-semibold text-[#021B3E]">
+							<p className="text-xs lg:text-xl font-semibold text-[#021B3E]">
 								{t.name}
 							</p>
 

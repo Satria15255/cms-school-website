@@ -28,7 +28,7 @@ const NewsSection = () => {
 					<NewsCard data={n} />
 				))}
 			</section>
-			<button className="text-lg md:hidden text-[#021B3E] flex items-center gap-1 font-semibold">
+			<button className="text-sm lg:text-lg md:hidden text-[#021B3E] flex items-center gap-1 font-semibold">
 				Lihat Semua Berita <HiOutlineArrowSmallRight />
 			</button>
 		</main>

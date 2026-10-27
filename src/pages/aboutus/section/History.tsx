@@ -4,7 +4,7 @@ import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 const History = () => {
 	return (
-		<main className="grid grid-cols-2 h-auto place-items-center px-14 py-12">
+		<main className="grid grid-cols-1 md:grid-cols-2 gap-4 h-auto place-items-center px-4 md:px-14 py-12">
 			<div className="space-y-3 ">
 				<p className="text-sm font-semibold flex items-center gap-3 text-[#B8890B]">
 					HISTORY & DEDIKASI
@@ -12,13 +12,13 @@ const History = () => {
 				<h1 className="text-5xl text-[#021B3E] font-serif">
 					Sejarah & Komitmen Kami Membangun Masa Depan Siswa.
 				</h1>
-				<p className="text-lg text-gray-700 max-w-">
+				<p className="text-sm md:text-lg text-gray-700  ">
 					Didirikan dengan tekad untuk menyediakan sarana pendidikan
 					menengah berkualitas tinggi yang terjangkau dan inklusif,
 					SMP Nusantara telah menempuh perjalanan panjang dalam
 					menorehkan prestasi dan melahirkan lulusan berintegritas.
 				</p>
-				<p className="text-lg text-gray-700 max-w-">
+				<p className="text-sm md:text-lg text-gray-700  ">
 					Kami meyakini bahwa jenjang Sekolah Menengah Pertama (SMP)
 					adalah fase pembentukan fondasi kognitif, emosional, dan
 					sosial yang sangat krusial bagi remaja awal. Melalui
@@ -28,7 +28,7 @@ const History = () => {
 					saing global.
 				</p>
 			</div>
-			<div className=" w-full pl-3">
+			<div className=" w-full md:pl-3">
 				<img
 					src="/aboutUsImage.png"
 					alt="aboutUs"

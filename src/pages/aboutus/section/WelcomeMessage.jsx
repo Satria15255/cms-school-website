@@ -14,10 +14,10 @@ const Affirmation = () => {
 						<p className="text-3xl text-[#021B3E] font-semibold">
 							Dra. Hj. Sri Rahayu, M.Pd.
 						</p>
-						<p className="text-lg text-[#B8890B]">
+						<p className="text-sm lg:text-lg text-[#B8890B]">
 							Kepala Sekolah SMPN 2 Tambakrejo
 						</p>
-						<span className="text-lg bg-[#EBF1FF] px-5 rounded-full">
+						<span className="text-sm lg:text-lg bg-[#EBF1FF] px-5 rounded-full">
 							Magister Manajemen Pendidikan
 						</span>
 					</div>
@@ -26,7 +26,7 @@ const Affirmation = () => {
 					<span className="text-lg text-[#B8890B]">
 						SAMBUTAN PIMPINAN SEKOLAH
 					</span>
-					<h1 className="text-5xl font-serif text-[#021B3E]">
+					<h1 className="text-3xl lg:text-5xl font-serif text-[#021B3E]">
 						Mendampingi Fase Emas Remaja Menuju Pribadi Tangguh &
 						Berbudi
 					</h1>
@@ -45,10 +45,10 @@ const Affirmation = () => {
 						depan kelas, melainkan mentor yang senantiasa menuntun
 						dengan kehangatan dan keteladanan.”
 					</p>
-					<p className="text-lg">
-						SALAM HANGAT & DEDIKASI, -{" "}
+					<p className="text-sm lg:text-lg">
+						SALAM HANGAT & DEDIKASI, <br />
 						<span className="text-3xl italic text-[#021B3E]">
-							Sri Rahayu
+							- Sri Rahayu
 						</span>
 					</p>
 				</div>
