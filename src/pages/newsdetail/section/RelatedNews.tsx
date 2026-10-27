@@ -5,7 +5,7 @@ import NewsCard from "@/features/news/components/NewsCard";
 
 const RelatedNews = () => {
 	return (
-		<main className="h-auto flex p-5 flex-col justify-center items-center space-y-8 w-full bg-white">
+		<main className="h-auto flex md:p-5 flex-col justify-center items-center space-y-8 w-full bg-white">
 			<header className="flex flex-col items-start space-y-3 w-full ">
 				<p className="text-sm font-semibold text-[#B8890B] ">
 					INFORMASI TERKINI
@@ -28,7 +28,7 @@ const RelatedNews = () => {
 					<NewsCard data={n} />
 				))}
 			</section>
-			<button className="text-lg md:hidden text-[#021B3E] flex items-center gap-1 font-semibold">
+			<button className="text-sm lg:text-lg md:hidden text-[#021B3E] flex items-center gap-1 font-semibold">
 				Lihat Semua Berita <HiOutlineArrowSmallRight />
 			</button>
 		</main>

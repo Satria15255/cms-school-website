@@ -35,14 +35,14 @@ const NewsDetailPage = () => {
 	}
 
 	return (
-		<main className="pt-16 mt-16 flex flex-col gap-5  px-14">
-			<section className="flex gap-5 justify-center items-start">
-				<div className="w-4/7">
+		<main className="lg:pt-16 mt-16 flex flex-col gap-5 px-4 lg:px-14">
+			<section className="flex flex-col lg:flex-row gap-5 justify-center items-start">
+				<div className="w-full lg:w-4/7">
 					<Header news={news} />
-					<Content news={news.content} />
+					<Content news={news} />
 				</div>
-				<div className="w-2/7 sticky top-24 flex flex-col gap-5">
-					<div className="w-full flex justify-end">
+				<div className="w-full lg:w-2/7 sticky top-24 flex flex-col gap-5">
+					<div className="w-full hidden lg:flex justify-end">
 						<Link
 							to="/news"
 							className="inline-flex items-center gap-2 font-medium
@@ -52,7 +52,9 @@ const NewsDetailPage = () => {
 							Kembali ke Semua Berita
 						</Link>
 					</div>
-					<Participant data={news} />
+					<div className="hidden lg:flex">
+						<Participant data={news} />
+					</div>
 					<HumasContactLabel />
 				</div>
 			</section>
