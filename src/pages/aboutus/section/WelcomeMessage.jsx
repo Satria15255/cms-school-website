@@ -3,7 +3,7 @@ import { BiRightIndent } from "react-icons/bi";
 const Affirmation = () => {
 	return (
 		<div className="h-auto  bg-[#EBF1FF] px-5 py-12 lg:px-8 flex justify-center items-center">
-			<div className="flex flex-col lg:flex-row lg:w-4/5 p-5 h-auto lg:h-3/5 py-12 justify-center items-center bg-white rounded-2xl">
+			<div className="flex flex-col lg:flex-row lg:w-4/5 p-5 h-auto lg:h-3/5 py-12 justify-center space-y-7 items-center bg-white rounded-2xl">
 				<div className="w-full lg:w-2/5 flex flex-col gap-3 lg:justify-center items-center relative">
 					<img
 						src="/kepsek.png"
@@ -11,7 +11,7 @@ const Affirmation = () => {
 						className="w-1/2  h-full rounded-full  "
 					/>
 					<div className="text-center">
-						<p className="text-3xl text-[#021B3E] font-semibold">
+						<p className="text-2xl text-[#021B3E] font-semibold">
 							Dra. Hj. Sri Rahayu, M.Pd.
 						</p>
 						<p className="text-sm lg:text-lg text-[#B8890B]">

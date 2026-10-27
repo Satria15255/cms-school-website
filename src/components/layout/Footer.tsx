@@ -4,7 +4,7 @@ import { LuClock, LuMail } from "react-icons/lu";
 const Footer = () => {
 	return (
 		<div className="bg-[#021B3E] min-h-50   w-full">
-			<div className="grid grid-cols-1 md:grid-cols-3 h-full w-full p-5 space-y-4 justify-between items-start">
+			<div className="grid grid-cols-1 md:grid-cols-3 h-full w-full p-5 space-y-8 justify-between items-start py-12">
 				<div className="flex flex-col gap-3 text-white max-w-2xl md:h-10">
 					<h1 className="text-3xl md:text-xl lg:text-5xl flex flex-col font-semibold">
 						SMP NUSANTARA

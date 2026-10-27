@@ -56,11 +56,11 @@ const TenagaPendidik = () => {
 			</section>
 			<section className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-5 w-full place-items-center  ">
 				{TenagaKependidikan.map((t) => (
-					<div className="bg-[#EBF1FF] flex flex-col items-center gap-5 p-2 lg:p-8 justify-center h-70 py-4 lg:py-12 w-full  rounded-xl border border-gray-200 lg:shadow-lg">
+					<div className="bg-[#EBF1FF] flex flex-col items-center gap-5 p-2 lg:p-8 justify-center h-auto lg:h-70 py-4 lg:py-12 w-full  rounded-xl border border-gray-200 lg:shadow-lg">
 						<div className="flex justify-center gap2 w-full">
-							<div className="flex gap-4">
+							<div className="flex gap-4 w-3/5">
 								<div className="w-1/3  flex items-center ">
-									<p className="text-2xl flex justify-center items-center font-extrabold text-[#F4BF46] bg-[#021B3E] rounded-xl w-20 h-20 text-center">
+									<p className="text-lg lg:text-2xl flex justify-center items-center font-extrabold text-[#F4BF46] bg-[#021B3E] rounded-xl w-15 lg:w-20 h-15 lg:h-20 text-center">
 										{t.init}
 									</p>
 								</div>
