@@ -36,7 +36,7 @@ const StandarPoint = [
 
 const StandardPembinaan = () => {
 	return (
-		<main className="flex bg-[#021B3E]  p-12">
+		<main className="flex flex-col md:flex-row bg-[#021B3E] p-4 py-12 md:p-12">
 			<section className="flex flex-col  gap-5   text-white">
 				<div>
 					<p className="text-sm text-[#F4BF46]">
@@ -72,21 +72,23 @@ const StandardPembinaan = () => {
 					</div>
 				</div>
 			</section>
-			<section className="grid grid-cols-2  gap-3 p-3">
+			<section className="grid grid-cols-1 md:grid-cols-2  gap-3 py-3 md:p-3">
 				{StandarPoint.map((s) => (
 					<div className="bg-[#1B3054] flex flex-col space-y-1 lg:space-y-3 p-5 rounded-lg h-55 md:h-60 lg:h-80">
-						<div className="bg-[#021B3E]  0 p-2 w-15 h-15 xl:w-20 xl:h-20 flex justify-center rounded-lg items-center">
-							<p className=" text-[#F4BF46] text-2xl lg:text-4xl">
-								{s.icon}
+						<div className="flex gap-2 items-center">
+							<div className="bg-[#021B3E]  0 p-2 w-15 h-15 xl:w-20 xl:h-20 flex justify-center rounded-lg items-center">
+								<p className=" text-[#F4BF46] text-2xl lg:text-4xl">
+									{s.icon}
+								</p>
+							</div>
+							<p className=" text-white text-lg md:text-sm md:h-9 lg:text-3xl font-semibold">
+								{s.title}
 							</p>
 						</div>
-						<p className=" text-white text-md md:text-sm  h-9 lg:text-3xl font-semibold">
-							{s.title}
-						</p>
-						<p className="hidden md:block text-sm md:text-xs  lg:text-lg xl:text-xl text-gray-300">
+						<p className="block text-sm md:text-xs  lg:text-lg xl:text-xl text-gray-300">
 							{s.description}
 						</p>
-						<p className="text-sm lg:text-lg md:hidden text-gray-300">
+						<p className="text-sm lg:text-lg md:block hidden text-gray-300">
 							{s.description2}
 						</p>
 					</div>

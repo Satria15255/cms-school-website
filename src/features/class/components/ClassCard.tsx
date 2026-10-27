@@ -4,7 +4,7 @@ import { PiCityDuotone } from "react-icons/pi";
 
 const ClassCard = ({ details }) => {
 	return (
-		<main className="w-full  flex flex flex-col justify-around gap-5  h-90 rounded-lg p-8 border-[#F4BF46] border-t-8 shadow-lg">
+		<main className="w-full  flex flex flex-col justify-around gap-5 h-70 md:h-90 rounded-lg p-4 md:p-8 border-[#F4BF46] border-t-8 shadow-lg">
 			<div className="w-full  flex items-center justify-between">
 				<h1 className="text-3xl  text-[#021B3E] font-serif">
 					Kelas {details.kelas}{" "}
@@ -33,7 +33,7 @@ const ClassCard = ({ details }) => {
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-between  w-full  pt-7">
+			<div className="flex justify-between  w-full  md:pt-7">
 				<div className="flex items-center gap-2">
 					<div className="text-[#021B3E] ">
 						<FaUsers />
