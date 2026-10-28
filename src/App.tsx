@@ -6,6 +6,7 @@ import AboutUsPage from "@/pages/aboutus/AboutUsPage";
 import ClassListPage from "@/pages/classList/ClassListPage";
 import NewsPage from "@/pages/news/NewsPage";
 import NewsDetailPages from "@/pages/newsdetail/NewsDetailPages";
+import ContactPages from "@/pages/contact/ContactPages";
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/class-list" element={<ClassListPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/news/:slug" element={<NewsDetailPages />} />
+        <Route path="/contact" element={<ContactPages />} />
       </Routes>
 
       <Footer />

@@ -54,7 +54,7 @@ const Header = ({ news }) => {
 			</div>
 			<div className=" lg:my-8 h-1 w-20 rounded-full bg-amber-400" />
 
-			<div className="bg-blue-100 w-full p-3 md:p-5 flex flex-col md:flex-row items-center my-12 rounded-xl">
+			<div className="bg-blue-100 w-full p-3 md:p-5 flex flex-col md:flex-row items-center my-6 md:my-12 rounded-xl">
 				<div className="flex items-center gap-3 w-full">
 					<span className="bg-[#021B3E] p-3 rounded-full text-xl lg:text-3xl text-white">
 						<AiTwotoneSound />
