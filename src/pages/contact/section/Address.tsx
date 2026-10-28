@@ -6,7 +6,7 @@ import LocationMap from "@/components/maps/LocationMap";
 
 const Address = () => {
 	return (
-		<main className="grid grid-cols-2 px-14 py-12">
+		<main className="grid grid-cols-1 md:grid-cols-2 px-4 gap-4 lg:px-14 py-12">
 			<section className="space-y-6">
 				<div className="flex flex-col gap-4">
 					<p className="text-[#021B3E] text-sm">
@@ -22,21 +22,21 @@ const Address = () => {
 					</p>
 				</div>
 
-				<div className="flex w-full gap-2 rounded-xl border items-start border-gray-200 p-8 shadow-lg">
+				<div className="flex flex-col md:flex-row w-full gap-2 rounded-xl border items-start border-gray-200 p-8 shadow-lg">
 					<span className="bg-blue-100 p-4 rounded-xl text-5xl">
 						<HiOutlineBuildingOffice2 />
 					</span>
 					<div className="space-y-3">
-						<h1 className="text-4xl font-serif text-[#021B3E] ">
+						<h1 className="text-2xl lg:text-4xl font-serif text-[#021B3E] ">
 							Gedung SMP Nusantara
 						</h1>
-						<p className="text-lg text-gray-600">
+						<p className="text-sm  lg:text-lg text-gray-600">
 							Jl. Pendidikan Karakter No. 12, Kelurahan Cilandak,
 							Jakarta Selatan, DKI Jakarta 10110
 						</p>
 						<div className="flex items-center gap-2 bg-gray-100 rounded-xl p-4">
 							<FaTrainSubway />
-							<p className="text-lg">
+							<p className="text-sm lg:text-lg">
 								Akses mudah via MRT Stasiun Fatmawati (10 menit)
 								dan TransJakarta Koridor 6/7.
 							</p>
@@ -44,51 +44,67 @@ const Address = () => {
 					</div>
 				</div>
 
-				<div className="flex flex-col w-full gap-3 rounded-xl border   border-gray-200 p-8 shadow-lg">
+				<div className="flex flex-col w-full gap-3 rounded-xl border   border-gray-200 p-4 lg:p-8 shadow-lg">
 					<div className="flex items-center gap-4 text-4xl">
 						<LuCalendarClock />
-						<h1 className="text-4xl font-serif text-[#021B3E] ">
+						<h1 className="text-2xl lg:text-4xl font-serif text-[#021B3E] ">
 							Jadwal Pelayanan Administrasi & Tamu
 						</h1>
 					</div>
 					<div className="space-y-3">
 						<div className="flex items-center justify-between gap-2 bg-gray-100 rounded-xl p-4">
 							<div>
-								<p>Senin - Kamis</p>
+								<p className="text-lg lg:text-xl text-[#021B3E]">
+									Senin - Kamis
+								</p>
 							</div>
-							<p className="text-lg">07.00 - 15.30 WIB</p>
+							<p className="text-sm lg:text-lg">
+								07.00 - 15.30 WIB
+							</p>
 						</div>
 						<div className="flex items-center justify-between gap-2 bg-gray-100 rounded-xl p-4">
 							<div className="flex flex-col gap-1">
-								<p className="text-xl text-[#021B3E]">Jumat</p>
+								<p className="text-lg lg:text-xl text-[#021B3E]">
+									Jumat
+								</p>
 								<p className="text-sm text-gray-600">
 									Jadwal Sholat Jumat : 11.30 - 13.00
 								</p>
 							</div>
-							<p className="text-lg">07.00 - 15.30 WIB</p>
+							<p className="text-sm lg:text-lg">
+								07.00 - 15.30 WIB
+							</p>
 						</div>
 						<div className="flex items-center justify-between gap-2 bg-gray-100 rounded-xl p-4">
 							<div>
-								<p className="text-xl text-[#021B3E]">Jumat</p>
+								<p className="text-lg lg:text-xl text-[#021B3E]">
+									Jumat
+								</p>
 								<p className="text-sm text-gray-600">
 									Jadwal Sholat Jumat : 11.30 - 13.00
 								</p>
 							</div>
-							<p className="text-lg">08.00 - 12.00 WIB</p>
+							<p className="text-sm lg:text-lg">
+								08.00 - 12.00 WIB
+							</p>
 						</div>
 						<div className="flex items-center justify-between gap-2 bg-red-100 rounded-xl p-4">
 							<div>
-								<p>Minggu & Libur Nasional</p>
+								<p className="text-lg lg:text-xl">
+									Minggu & Libur Nasional
+								</p>
 							</div>
-							<p className="text-lg">Tutup / Libur Operasional</p>
+							<p className="text-sm lg:text-lg">
+								Libur Operasional
+							</p>
 						</div>
 					</div>
 				</div>
 
-				<div className="flex flex-col w-full gap-3 rounded-xl border   border-gray-200 p-8 shadow-lg">
+				<div className="flex flex-col w-full gap-3 rounded-xl border   border-gray-200 p-4 lg:p-8 shadow-lg">
 					<div className="flex items-center gap-4 text-4xl">
 						<LuCalendarClock />
-						<h1 className="text-4xl font-serif text-[#021B3E] ">
+						<h1 className="text-2xl lg:text-4xl font-serif text-[#021B3E] ">
 							Unit Pelayanan Khusus
 						</h1>
 					</div>
@@ -103,7 +119,7 @@ const Address = () => {
 									Wahyuni, A.Md
 								</p>
 							</div>
-							<p className="text-lg">Ext. 101</p>
+							<p className="text-lg w-1/4">Ext.101</p>
 						</div>
 						<div className="flex items-center justify-between gap-2 bg-gray-100 rounded-xl p-4">
 							<div className="flex flex-col gap-1">
@@ -115,7 +131,7 @@ const Address = () => {
 									Maya Indah, S.Sos
 								</p>
 							</div>
-							<p className="text-lg">Ext. 101</p>
+							<p className="text-lg w-1/4">Ext.101</p>
 						</div>
 						<div className="flex items-center justify-between gap-2 bg-gray-100 rounded-xl p-4">
 							<div className="flex flex-col gap-1">
@@ -127,12 +143,12 @@ const Address = () => {
 									(Humas)
 								</p>
 							</div>
-							<p className="text-lg">Ext. 108</p>
+							<p className="text-lg w-1/4">Ext.108</p>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section className="flex flex-col space-y-6 pl-3">
+			<section className="flex flex-col space-y-6 md:pl-3">
 				<div className=" w-full">
 					<div className="relative">
 						<img
@@ -151,7 +167,7 @@ const Address = () => {
   "
 						/>
 					</div>
-					<div className="flex items-center justify-between p-5 text-lg font-semibold rounded-b-lg shadow-xl">
+					<div className="flex items-center justify-between p-3 lg:p-5 text-sm lg:text-lg font-semibold rounded-b-lg shadow-xl">
 						<p className="font-semibold flex items-center gap-2">
 							<PiSealCheckBold size={30} />
 							Lingkungan Asri, Bersetifikasi Sekolah Ramah Anak

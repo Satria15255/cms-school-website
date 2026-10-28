@@ -28,19 +28,19 @@ const PaduanDetail = [
 
 const Paduan = () => {
 	return (
-		<main className="bg-[#021B3E] py-12 px-14 flex flex-col gap-6 justify-center items-center">
+		<main className="bg-[#021B3E] py-12 px-4 lg:px-14 flex flex-col gap-6 justify-center items-center">
 			<section className="flex flex-col items-center gap-2 text-white">
 				<span className="text-sm  text-[#F4BF46]">TERTIB & AMAN</span>
-				<h1 className="text-4xl font-serif">
+				<h1 className="text-2xl lg:text-4xl font-serif text-center">
 					Paduan & Prosedur Kunjungan Tamu{" "}
 				</h1>
-				<p className="text-sm max-w-lg text-center">
+				<p className="text-sm max-w-lg text-center text-gray-400">
 					Demi kenyamanan proses belajar mengajar serta keamanan
 					seluruh peserta didik, mohon memperhatikan tata tertib
 					kunjungan berikut.
 				</p>
 			</section>
-			<section className="w-full flex gap-4">
+			<section className="w-full flex flex-col md:flex-row gap-4">
 				{PaduanDetail.map((p) => (
 					<div className="bg-[#1B3054] w-full min-h-70 p-5 rounded-2xl flex flex-col justify-around gap-4">
 						<div className="w-full flex justify-between items-center">

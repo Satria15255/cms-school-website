@@ -25,10 +25,12 @@ const Question = [
 
 const Bantuan = () => {
 	return (
-		<main className="h-auto p-14 flex flex-col gap-4 justify-center items-center">
+		<main className="h-auto py-12 px-4 lg:p-14 flex flex-col gap-4 justify-center items-center">
 			<section className="flex flex-col gap-2 items-center">
-				<span className="text-sm">BANTUAN CEPAT</span>
-				<h1 className="text-4xl font-serif  text-[#021B3E]">
+				<span className="text-sm  text-[#021B3E] font-semibold">
+					BANTUAN CEPAT
+				</span>
+				<h1 className="text-2xl lg:text-4xl text-center font-serif  text-[#021B3E]">
 					Pertanyaan Umum Seputar Layanan Kontak
 				</h1>
 				<p className="text-sm max-w-lg text-gray-600 text-center">
@@ -43,7 +45,7 @@ const Bantuan = () => {
 							<span>{q.icon}</span>
 						</div>
 						<div className="flex flex-col gap-1">
-							<h1 className="text-xl  text-[#021B3E]">
+							<h1 className="text-lg lg:text-xl text-[#021B3E]">
 								{q.title}
 							</h1>
 							<p className="text-sm text-gray-600">

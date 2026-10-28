@@ -5,6 +5,8 @@ import L from "leaflet";
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
+import { RiShareBoxFill } from "react-icons/ri";
+import { IoNavigateOutline } from "react-icons/io5";
 
 // Fix icon marker default Leaflet di bundler
 delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })
@@ -40,7 +42,7 @@ export default function LocationMap({
         center={position}
         zoom={15}
         scrollWheelZoom={false}
-        className="h-[400px] w-full rounded-2xl"
+        className="h-[200px] w-full rounded-2xl"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -51,10 +53,10 @@ export default function LocationMap({
         </Marker>
       </MapContainer>
 
-      <div className="p-5 grid grid-cols-2 w-full">
+      <div className="p-5 grid grid-cols-1 lg:grid-cols-2 gap-3 w-full">
         <div className="flex flex-col w-full">
           <h1 className="text-3xl">Titik Koordinat Utama</h1>
-          <p className="text-md">
+          <p className="text-md text-gray-500">
             {lat}, {lng}
           </p>
         </div>
@@ -63,16 +65,18 @@ export default function LocationMap({
             href={viewUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full p-3 bg-blue-100 rounded-xl text-center"
+            className="w-full flex gap-2 items-center justify-center p-3 bg-blue-100 rounded-xl text-center"
           >
+            <RiShareBoxFill />
             Google Maps
           </a>
           <a
             href={directionsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full p-3 bg-blue-100 rounded-xl text-center"
+            className="w-full flex gap-2 items-center justify-center p-3 bg-[#F4BF46] rounded-xl text-center"
           >
+            <IoNavigateOutline />
             Petunjuk Arah
           </a>
         </div>

@@ -4,10 +4,10 @@ import { ContactAddress } from "@/datas/Contact";
 
 const Header = () => {
 	return (
-		<main className="h-screen pb-12 relative bg-white pt-12 mt-16 mb-6 ">
+		<main className="h-400 pb-12 relative bg-white pt-12 md:mt-16 mb-6 ">
 			<div className="bg-white  border">
-				<div className="bg-[#021B3E] flex flex-col gap-4 justify-center px-14 min-h-160">
-					<div className=" text-sm text-gray-400">
+				<div className="bg-[#021B3E] flex flex-col gap-4 lg:justify-center pt-12 p-4 lg:px-14 h-120 lg:min-h-160">
+					<div className="text-xs lg:text-sm text-gray-400">
 						<Link to="/" className="hover:text-blue-900">
 							Beranda
 						</Link>
@@ -23,7 +23,7 @@ const Header = () => {
 						<span className="w-2 h-2 bg-[#F4BF46] flex items-center justify-center rounded-full"></span>
 						LAYANAN INFORMASI & KOMUNIKASI RESMI
 					</p>
-					<h1 className="text-3xl lg:text-7xl text-[#021B3E] text-white font-serif">
+					<h1 className="text-4xl lg:text-7xl text-[#021B3E] text-white font-serif">
 						Hubungi & Kunjungi SMP Nusantara
 					</h1>
 					<p className="text-sm max-w-xl text-gray-300">
@@ -34,8 +34,8 @@ const Header = () => {
 					</p>
 				</div>
 			</div>
-			<div className="absolute inset-0 flex items-end px-14">
-				<div className="flex gap-5 w-full ">
+			<div className="absolute inset-0 flex items-end px-4 md:px-14">
+				<div className="flex flex-col md:flex-row gap-3 md:gap-5 w-full ">
 					{ContactAddress.map((contact) => (
 						<ContactCard data={contact} />
 					))}
