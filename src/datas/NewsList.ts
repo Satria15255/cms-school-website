@@ -1,4 +1,6 @@
-export const NewsList = [
+import type { NewsItem } from "./types/news";
+
+export const NewsList: NewsItem[] = [
 	{
 		id: "news-001",
 		date: "2026-10-20",

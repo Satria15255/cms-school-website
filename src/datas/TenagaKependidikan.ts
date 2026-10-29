@@ -1,5 +1,8 @@
-export const TenagaKependidikan = [
+import type { tenagaKependidikanItem } from "./types/tenagaKependidikan";
+
+export const TenagaKependidikan: tenagaKependidikanItem[] = [
 	{
+		id: "TK-01",
 		init: "TW",
 		name: "TRI WAHYUNI, A.Md",
 		jabatan: "TATA USAHA",
@@ -7,6 +10,7 @@ export const TenagaKependidikan = [
 	},
 
 	{
+		id: "TK-02",
 		init: "BP",
 		name: "BAGUS PRASETYO, S.Ptk",
 		jabatan: "PERPUSTAKAAN",
@@ -14,6 +18,7 @@ export const TenagaKependidikan = [
 	},
 
 	{
+		id: "TK-03",
 		init: "ES",
 		name: "EKO SUPRIYADI ",
 		jabatan: "SARANA & PRASANA",

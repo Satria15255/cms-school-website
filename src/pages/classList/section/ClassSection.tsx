@@ -5,7 +5,7 @@ const ClassSection = () => {
 	return (
 		<main className="p-4 md:p-12 flex flex-col gap-4 w-full min-h-screen justify-center">
 			{ClassDetails.map((c) => (
-				<div key={c._id} className="w-full">
+				<div key={c.id} className="w-full">
 					<ClassContainer classList={c} />
 				</div>
 			))}

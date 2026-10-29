@@ -1,5 +1,8 @@
-export const ClassDetails = [
+import type { ClassItem } from "@/datas/types/class";
+
+export const ClassDetails: ClassItem[] = [
 	{
+		id: "CLASS-01",
 		tingkat: "PERTAMA",
 		symbol: "VII",
 		phase: "Adaptasi & Literasi",
@@ -42,6 +45,7 @@ export const ClassDetails = [
 		],
 	},
 	{
+		id: "CLASS-02",
 		tingkat: "MENENGAH",
 		symbol: "VIII",
 		phase: "Penguatan & Minat  Bakat",
@@ -84,6 +88,7 @@ export const ClassDetails = [
 		],
 	},
 	{
+		id: "CLASS-03",
 		tingkat: "AKHIR",
 		symbol: "IX",
 		phase: "Pemantapan & Transisi SMA/SMK",

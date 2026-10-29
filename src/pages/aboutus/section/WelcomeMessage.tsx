@@ -1,5 +1,3 @@
-import { BiRightIndent } from "react-icons/bi";
-
 const Affirmation = () => {
 	return (
 		<div className="h-auto  bg-[#EBF1FF] px-5 py-12 lg:px-8 flex justify-center items-center">

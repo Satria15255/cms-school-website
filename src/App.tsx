@@ -7,7 +7,7 @@ import NewsPage from "@/pages/news/NewsPage";
 import NewsDetailPages from "@/pages/newsdetail/NewsDetailPages";
 import ContactPages from "@/pages/contact/ContactPages";
 import "./App.css";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

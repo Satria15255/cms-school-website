@@ -1,5 +1,8 @@
-export const Teacher = [
+import type { TenagaPendidikItem } from "./types/tenagaPendidik";
+
+export const Teacher: TenagaPendidikItem[] = [
   {
+    id: "TP-01",
     init: "BS",
     name: "Drs. Bambang Sudiro, M.Si",
     jabatan: "Wakil Kurikulum",
@@ -7,6 +10,7 @@ export const Teacher = [
   },
 
   {
+    id: "TP-02",
     init: "SN",
     name: "Siti Nurhaliza",
     jabatan: "Guru Mata Pelajaran",
@@ -14,6 +18,7 @@ export const Teacher = [
   },
 
   {
+    id: "TP-03",
     init: "AF",
     name: "Ahmad Fauzi, SP.d",
     jabatan: "Guru Mata Pelajaran",
@@ -21,6 +26,7 @@ export const Teacher = [
   },
 
   {
+    id: "TP-04",
     init: "DL",
     name: "Dewi Lestari, SP.d",
     jabatan: "Guru Mata Pelajaran",
@@ -28,6 +34,7 @@ export const Teacher = [
   },
 
   {
+    id: "TP-05",
     init: "HW",
     name: "Hendra Wijaya,S. Kom",
     jabatan: "Guru Mata Pelajaran",
@@ -35,12 +42,14 @@ export const Teacher = [
   },
 
   {
+    id: "TP-06",
     init: "RP",
     name: "Rina Parlina, SP.d.I",
     jabatan: "Guru Mata Pelajaran",
     mapel: "Pendidikan Agama & Moral",
   },
   {
+    id: "TP-07",
     init: "AS",
     name: "Agus Setiawan, SP.d",
     jabatan: "Guru Mata Pelajaran",
@@ -48,6 +57,7 @@ export const Teacher = [
   },
 
   {
+    id: "TP-08",
     init: "MI",
     name: "Maya Indah , S. Sos",
     jabatan: "Guru Mata Pelajaran",

@@ -1,11 +1,12 @@
 import { MdMessage, MdPhoneInTalk, MdMarkEmailRead } from "react-icons/md";
 import { LuSendHorizontal, LuPhone } from "react-icons/lu";
 import { TbMailShare } from "react-icons/tb";
+import type { ContactItem } from "./types/contact";
 
-export const ContactAddress = [
+export const ContactAddress: ContactItem[] = [
 	{
 		id: "1",
-		icon: <MdMessage />,
+		icon: MdMessage,
 		label: "Aktiv Kerja",
 		title: "Layanan Chat Whatsapp",
 		description:
@@ -13,13 +14,13 @@ export const ContactAddress = [
 		contact: "+62 812-3456-7890",
 		contactDesc: "Senin - Jumat (07.30 - 15.30 WIB)",
 		cta: {
-			ctaIcon: <LuSendHorizontal />,
+			ctaIcon: LuSendHorizontal,
 			text: "Kirim Pesan Whatsapp",
 		},
 	},
 	{
 		id: "2",
-		icon: <MdPhoneInTalk />,
+		icon: MdPhoneInTalk,
 		label: "PTSN Kantor",
 		title: "Telepon Kantor & Tata Usaha",
 		description:
@@ -27,13 +28,13 @@ export const ContactAddress = [
 		contact: "+62 21 555-0199",
 		contactDesc: "Ext. 101 (Tata Usaha) & Ext. 102 (Kesiswaan)",
 		cta: {
-			ctaIcon: <LuPhone />,
+			ctaIcon: LuPhone,
 			text: "Hubungi Sekarang",
 		},
 	},
 	{
 		id: "3",
-		icon: <MdMarkEmailRead />,
+		icon: MdMarkEmailRead,
 		label: "Verifikasi Dinas",
 		title: "Surel / Email Resmi",
 		description:
@@ -41,7 +42,7 @@ export const ContactAddress = [
 		contact: "info@smpnusantara.sch.id",
 		contactDesc: "humas@smpnusantara.sch.id",
 		cta: {
-			ctaIcon: <TbMailShare />,
+			ctaIcon: TbMailShare,
 			text: "Kirim Email Resmi",
 		},
 	},
