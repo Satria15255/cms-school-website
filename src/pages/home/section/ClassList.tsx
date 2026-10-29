@@ -1,8 +1,11 @@
 import { ClassDetails } from "@/datas/ClassList";
 import { HiOutlineUser } from "react-icons/hi";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
+import { useNavigate } from "react-router-dom";
 
 const ClassList = () => {
+	const navigate = useNavigate();
+
 	return (
 		<main className="h-auto lg:h-screen p-5 flex flex-col justify-center lg:items-center space-y-8 w-full bg-[#EBF1FF]">
 			<header className="flex flex-col lg:items-center space-y-3">
@@ -51,7 +54,10 @@ const ClassList = () => {
 				))}
 			</section>
 			<div className="flex gap-4 w-full justify-center">
-				<button className="w-full lg:w-1/8 py-3 text-sm lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center">
+				<button
+					onClick={() => navigate("/class-list")}
+					className="w-full lg:w-1/8 py-3 text-sm lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center"
+				>
 					Lihat Semua Kelas <HiOutlineArrowSmallRight />
 				</button>
 			</div>

@@ -1,6 +1,9 @@
 import { BiRightIndent } from "react-icons/bi";
+import { useNavigate } from "react-router-dom";
 
 const Affirmation = () => {
+	const navigate = useNavigate();
+
 	return (
 		<div className="h-auto lg:h-screen bg-[#EBF1FF] px-5 py-12 lg:px-8 flex justify-center items-center">
 			<div className="flex flex-col lg:flex-row lg:w-4/5 p-5 h-auto lg:h-3/5 justify-center items-center bg-white rounded-3xl">
@@ -34,7 +37,10 @@ const Affirmation = () => {
 						<p>Kepala Sekolah SMPN 2 x</p>
 					</div>
 					<div>
-						<button className="px-6 py-3 text-sm lg:text-lg bg-[#EDF0FF] rounded-xl  flex gap-1 items-center">
+						<button
+							onClick={() => navigate("/about-us")}
+							className="px-6 py-3 text-sm lg:text-lg bg-[#EDF0FF] rounded-xl  flex gap-1 items-center"
+						>
 							Lihat Profil Lengkap <BiRightIndent />
 						</button>
 					</div>

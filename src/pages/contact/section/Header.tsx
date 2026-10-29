@@ -4,9 +4,9 @@ import { ContactAddress } from "@/datas/Contact";
 
 const Header = () => {
 	return (
-		<main className="h-400 pb-12 relative bg-white pt-12 md:mt-16 mb-6 ">
+		<main className="h-400 lg:h-220 pb-12 relative bg-white pt-12 md:mt-16 mb-6 ">
 			<div className="bg-white  border">
-				<div className="bg-[#021B3E] flex flex-col gap-4 lg:justify-center pt-12 p-4 lg:px-14 h-120 lg:min-h-160">
+				<div className="bg-[#021B3E] flex flex-col gap-4 lg:justify-center pt-12 p-4 lg:px-14 h-120 lg:min-h-120">
 					<div className="text-xs lg:text-sm text-gray-400">
 						<Link to="/" className="hover:text-blue-900">
 							Beranda

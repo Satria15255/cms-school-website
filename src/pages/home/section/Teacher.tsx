@@ -1,8 +1,11 @@
 import { Teacher } from "@/datas/TenagaPendidik";
+import { useNavigate } from "react-router-dom";
 
 const TeacherSection = () => {
+	const navigate = useNavigate();
+
 	return (
-		<main className="h-auto lg:h-screen p-5 flex flex-col justify-center lg:items-center space-y-8 w-full bg-white">
+		<main className="h-auto p-5 lg:p-14 flex flex-col justify-center lg:items-center space-y-8 w-full bg-white">
 			<header className="flex flex-col lg:items-center space-y-3">
 				<p className="text-sm font-semibold text-[#B8890B] ">
 					KETELADANAN GURU
@@ -19,7 +22,7 @@ const TeacherSection = () => {
 				{Teacher.map((t) => (
 					<div
 						key={t.id}
-						className="bg-white flex flex-col gap-5 p-2 items-center justify-center min-h-50 lg:h-auto py-4 lg:py-12 w-full lg:w-120 rounded-xl border border-gray-200 lg:shadow-lg"
+						className="bg-white flex flex-col gap-5 p-2 items-center justify-center min-h-50 lg:h-auto py-4 lg:py-12 w-full  rounded-xl border border-gray-200 lg:shadow-lg"
 					>
 						<div className="rounded-full h-15 lg:h-30 w-15 lg:w-30 bg-blue-100">
 							<img src="" alt="" />
@@ -41,10 +44,16 @@ const TeacherSection = () => {
 				))}
 			</section>
 			<div className="flex gap-2 lg:gap-4 w-full justify-center">
-				<button className="w-1/2 lg:w-1/8 py-4 text-xs lg:text-lg bg-white text-[#021B3E] font-semibold rounded-xl border border-gray-200 flex gap-1 justify-center items-center">
+				<button
+					onClick={() => navigate("/about-us")}
+					className="w-1/2 lg:w-1/8 py-4 text-xs lg:text-lg bg-white text-[#021B3E] font-semibold rounded-xl border border-gray-200 flex gap-1 justify-center items-center"
+				>
 					Lihat Tenaga Pendidik
 				</button>
-				<button className="w-1/2 lg:w-1/8 py-4 text-xs lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center">
+				<button
+					onClick={() => navigate("/about-us")}
+					className="w-1/2 lg:w-1/8 py-4 text-xs lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center"
+				>
 					Lihat Struktur Organisasi
 				</button>
 			</div>

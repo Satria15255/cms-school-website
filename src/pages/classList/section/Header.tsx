@@ -53,8 +53,8 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex items-center    justify-center w-full md:w-2/5 md:p-5">
-				<div className="bg-white w-90 gap-3 rounded-lg p-2 flex ">
+			<div className="flex items-center justify-center w-full md:w-2/5 md:p-5">
+				<div className="bg-white w-full md:w-90 gap-3 rounded-lg p-2 flex ">
 					<div className="w-12 h-12 bg-[#EBF1FF] flex items-center justify-center rounded-xl">
 						<span className="text-3xl">
 							<IoMdCheckmarkCircleOutline />

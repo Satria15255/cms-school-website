@@ -1,8 +1,10 @@
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
+import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
+	const navigate = useNavigate();
 	return (
 		<main className="grid grid-cols-1 lg:grid-cols-2 h-auto  md:py-12 lg:py-2 lg:h-screen place-items-center">
 			<div className="p-5 w-full">
@@ -83,7 +85,10 @@ const AboutUs = () => {
 					</ul>
 				</div>
 				<div className="w-full lg:w-1/2">
-					<button className="w-full justify-center flex gap-2 items-center px-6 py-3 bg-[#EBF1FF] text-sm lg:text-lg  rounded-lg font-semibold">
+					<button
+						onClick={() => navigate("/about-us")}
+						className="w-full justify-center flex gap-2 items-center px-6 py-3 bg-[#EBF1FF] text-sm lg:text-lg  rounded-lg font-semibold"
+					>
 						Baca Profil Sekolah <HiOutlineArrowSmallRight />
 					</button>
 				</div>

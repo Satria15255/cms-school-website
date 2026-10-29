@@ -2,8 +2,10 @@ import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 import { MdOutlineMessage } from "react-icons/md";
 import { PiBookOpenUserBold } from "react-icons/pi";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+	const navigate = useNavigate();
 	return (
 		<main className="grid grid-cols-1 md:grid-cols-2 h-auto pt-12 md:mt-12  md:py-12 lg:h-screen place-items-center">
 			<div className="h-full  flex flex-col justify-center space-y-4 w-full p-5">
@@ -28,10 +30,16 @@ const HeroSection = () => {
 					unggul dan berdaya saing.
 				</p>
 				<div className="flex flex-col text-sm md:text-xs lg:text-lg md:flex-row gap-3">
-					<button className="flex gap-2 justify-center items-center px-6 py-3 bg-[#021B3E]  text-white rounded-lg font-semibold">
+					<button
+						onClick={() => navigate("/about-us")}
+						className="flex gap-2 justify-center items-center px-6 py-3 bg-[#021B3E]  text-white rounded-lg font-semibold"
+					>
 						Kenali Sekolah <HiOutlineArrowSmallRight />
 					</button>
-					<button className="flex gap-2 justify-center items-center px-6 py-3 bg-[#F4BF46]  text-black rounded-lg font-semibold">
+					<button
+						onClick={() => navigate("/contact")}
+						className="flex gap-2 justify-center items-center px-6 py-3 bg-[#F4BF46]  text-black rounded-lg font-semibold"
+					>
 						Hubungi Sekolah <MdOutlineMessage />
 					</button>
 				</div>

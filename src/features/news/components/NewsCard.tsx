@@ -11,7 +11,7 @@ const NewsCard = ({ data }: { data: NewsItem }) => {
 					<img
 						src="/news1.jfif"
 						alt=""
-						className="w-full h-full rounded-t-xl"
+						className="w-full h-full object-cover object-center rounded-t-xl"
 					/>
 				</div>
 				<div className="absolute  rounded-lg  inset-0 top-2  left-2">
