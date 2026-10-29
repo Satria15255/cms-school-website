@@ -1,4 +1,3 @@
-import { ClassDetails } from "@/datas/ClassList";
 import ClassCard from "./ClassCard";
 
 const ClassContainer = ({ classList }) => {

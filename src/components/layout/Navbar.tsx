@@ -55,9 +55,9 @@ const Navbar = () => {
 					</button>
 				</div>
 				<div className="md:hidden">
-					<buton>
+					<button>
 						<PiListBold />
-					</buton>
+					</button>
 				</div>
 			</div>
 		</main>

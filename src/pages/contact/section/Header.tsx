@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ContactCard from "@/features/contact/components/ContactCard";
 import { ContactAddress } from "@/datas/Contact";
 

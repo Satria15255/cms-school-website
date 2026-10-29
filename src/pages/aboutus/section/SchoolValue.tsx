@@ -1,5 +1,4 @@
 import { PiStudentDuotone } from "react-icons/pi";
-import { FaHandHoldingHeart } from "react-icons/fa";
 import { IoShieldHalfOutline } from "react-icons/io5";
 import { GiBookmarklet } from "react-icons/gi";
 import { HiUserGroup } from "react-icons/hi2";

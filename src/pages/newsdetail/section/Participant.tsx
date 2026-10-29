@@ -30,7 +30,7 @@ const Participant = ({ data }) => {
 					<p className="text-sm text-gray-500">Guru Pembimbing </p>
 					<ol type="1">
 						{data.participants.teachers.map((t) => (
-							<li classes="text-sm">{t}</li>
+							<li className="text-sm">{t}</li>
 						))}
 					</ol>
 				</div>

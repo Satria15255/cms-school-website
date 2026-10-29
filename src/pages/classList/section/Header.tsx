@@ -1,5 +1,3 @@
-import { PiCityDuotone, PiTreeStructureDuotone } from "react-icons/pi";
-import { LuUsers } from "react-icons/lu";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { RxDashboard } from "react-icons/rx";
 

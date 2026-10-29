@@ -1,7 +1,3 @@
-import { TfiLayoutLineSolid } from "react-icons/tfi";
-import { IoCheckmarkSharp } from "react-icons/io5";
-import { HiOutlineArrowSmallRight } from "react-icons/hi2";
-
 const History = () => {
 	return (
 		<main className="grid grid-cols-1 md:grid-cols-2 gap-4 h-auto place-items-center px-4 md:px-14 py-12">

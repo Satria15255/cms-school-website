@@ -1,5 +1,3 @@
-import { LuMail } from "react-icons/lu";
-import { IoPhonePortraitOutline } from "react-icons/io5";
 import { RiCustomerService2Line } from "react-icons/ri";
 
 const Contact = () => {

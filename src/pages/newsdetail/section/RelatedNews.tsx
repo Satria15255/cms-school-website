@@ -1,9 +1,7 @@
-import { NewsList } from "@/datas/NewsList";
-import { HiOutlineUser } from "react-icons/hi";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 import NewsCard from "@/features/news/components/NewsCard";
 
-const RelatedNews = () => {
+const RelatedNews = ({ news }) => {
 	return (
 		<main className="h-auto flex md:p-5 flex-col justify-center items-center space-y-8 w-full bg-white">
 			<header className="flex flex-col items-start space-y-3 w-full ">
@@ -24,7 +22,7 @@ const RelatedNews = () => {
 				</div>
 			</header>
 			<section className="grid grid-cols-1 md:grid-cols-3 gap-5 w-full place-items-center ">
-				{NewsList.slice(0, 3).map((n) => (
+				{news.slice(0, 3).map((n) => (
 					<NewsCard data={n} />
 				))}
 			</section>

@@ -1,5 +1,4 @@
 import { NewsList } from "@/datas/NewsList";
-import { HiOutlineUser } from "react-icons/hi";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 import NewsCard from "@/features/news/components/NewsCard";
 

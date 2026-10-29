@@ -1,4 +1,3 @@
-import { useState } from "react";
 import HomePage from "@/pages/home/HomePage";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -14,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Routes className="mt-12 pt-12">
+      <Routes>
         <Route path="/" element={<HomePage />} />
 
         <Route path="/about-us" element={<AboutUsPage />} />

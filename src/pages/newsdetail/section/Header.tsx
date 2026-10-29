@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AiTwotoneSound } from "react-icons/ai";
 import { CiShare2 } from "react-icons/ci";
 

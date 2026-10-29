@@ -1,5 +1,4 @@
 import { LuMail } from "react-icons/lu";
-import { IoPhonePortraitOutline } from "react-icons/io5";
 import { FaRegNewspaper } from "react-icons/fa";
 
 export const HumasContactLabel = () => {
