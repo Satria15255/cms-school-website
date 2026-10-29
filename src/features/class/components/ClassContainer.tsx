@@ -4,7 +4,7 @@ import type { ClassItem } from "@/datas/types/class";
 const ClassContainer = ({ classList }: { classList: ClassItem }) => {
 	return (
 		<main className="flex flex-col  gap-5 rounded-xl md:p-8">
-			<section className="w-full flex flex-col md:flex-row items-center">
+			<section className="w-full flex flex-col md:flex-row md:justify-between items-center">
 				<div className="w-full flex  flex-col  space-y-3">
 					<div className="text-sm bg-[#EBF1FF] px-2 rounded-full flex items-center gap-2 w-50">
 						<span className="w-2 h-2 bg-[#F4BF46] flex items-center justify-center rounded-full"></span>
@@ -16,7 +16,7 @@ const ClassContainer = ({ classList }: { classList: ClassItem }) => {
 					</h1>
 					<p className="text-sm max-w-xl">{classList.description}</p>
 				</div>
-				<div className="w-full md:w-2/5 rounded-xl my-4">
+				<div className="w-full md:w-2/5 flex justify-end rounded-xl my-4">
 					<div className="  w-90 gap-3 rounded-lg p-3 flex bg-[#EBF1FF]">
 						<div className="w-12 h-12 bg-[#021B3E] flex items-center justify-center rounded-full"></div>
 						<div>

@@ -20,7 +20,7 @@ const SchoolValue = () => {
 								{s.icon}
 							</p>
 						</div>
-						<p className=" text-[#021B3E] text-md md:text-sm  h-9 lg:text-3xl font-semibold">
+						<p className=" text-[#021B3E] text-md md:text-sm  h-9 lg:h-15 lg:text-3xl font-semibold">
 							{s.title}
 						</p>
 						<p className="hidden md:block text-sm md:text-xs  lg:text-lg xl:text-xl text-black">

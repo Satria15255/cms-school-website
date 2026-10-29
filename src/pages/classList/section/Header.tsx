@@ -30,24 +30,24 @@ const Header = () => {
 						karakter, serta kesejahteraan peserta didik.
 					</p>
 				</div>
-				<div className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-5 w-full md:w-1/2 ">
-					<div className="border w-full md:w-60 py-2 bg-white text-center border-gray-200 rounded-full flex justify-center items-center gap-1 text-[#F4BF46]">
-						<p className="text-[#021B3E] text-sm font-semibold">
+				<div className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-5 w-full  ">
+					<div className="border w-full bg-[#021B3E]  py-2   text-center border-gray-200 rounded-full flex justify-center items-center gap-1 text-[#F4BF46]">
+						<p className="text-white text-sm lg:text-lg font-semibold whitespace-nowrap">
 							Semua Jenjang
 						</p>
 					</div>
-					<div className="border w-full md:w-90 py-2 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
-						<p className="text-[#021B3E] text-sm font-semibold">
+					<div className="border w-full py-2 px-3 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
+						<p className="text-[#021B3E] text-sm lg:text-lg font-semibold  whitespace-nowrap">
 							Kelas VII (Fase Fondasi)
 						</p>
 					</div>
-					<div className="border w-full md:w-90 py-2 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
-						<p className="text-[#021B3E] text-sm font-semibold">
+					<div className="border w-full   py-2 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
+						<p className="text-[#021B3E] text-sm lg:text-lg font-semibold whitespace-nowrap">
 							Kelas VIII (Fase Penguatan)
 						</p>
 					</div>
-					<div className="border w-full md:w-90 py-2 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
-						<p className="text-[#021B3E] text-sm font-semibold">
+					<div className="border w-full   py-2 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
+						<p className="text-[#021B3E] text-sm lg:text-lg font-semibold whitespace-nowrap">
 							Kelas IX (Fase Pemantapan)
 						</p>
 					</div>

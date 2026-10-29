@@ -29,7 +29,7 @@ const TenagaPendidik = () => {
 			</section>
 			<section className="grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-5 w-full place-items-center  ">
 				{Teacher.map((t) => (
-					<div className="bg-white flex flex-col gap-5 p-2 lg:p-8 justify-center h-70 py-4 lg:py-12 w-full lg:w-120 rounded-xl border border-gray-200 lg:shadow-lg">
+					<div className="bg-white flex flex-col gap-5 p-2 lg:p-8 justify-center h-70 py-4 lg:py-12 w-full   rounded-xl border border-gray-200 lg:shadow-lg">
 						<div className="flex flex-col items-center lg:flex-row gap-4 w-full">
 							<div className="w-full lg:w-1/5 flex justify-center  ">
 								<p className="text-2xl flex justify-center items-center font-extrabold text-[#F4BF46] bg-[#021B3E] rounded-full w-17 h-17 text-center">
@@ -40,17 +40,16 @@ const TenagaPendidik = () => {
 								<p className="bg-[#EDF0FF] w-auto px-2 text-xs lg:text-sm  rounded-full">
 									{t.jabatan}
 								</p>
-								<p className="text-sm h-5 text-center lg:text-3xl font-semibold text-[#021B3E]">
+								<p className="text-sm h-5 text-center md:text-left lg:text-xl font-semibold text-[#021B3E]">
 									{t.name}
+								</p>
+								<p className="text-xs  h-3 lg:text-sm text-center max-w-xs lg:max-w-xl text-gray-500">
+									{t.mapel}
 								</p>
 							</div>
 						</div>
 
-						<div className="flex flex-col items-center gap-2">
-							<p className="text-xs  h-3 lg:text-sm text-center max-w-xs lg:max-w-xl text-gray-500">
-								{t.mapel}
-							</p>
-						</div>
+						<div className="flex justify-center md:justify-start items-center gap-2"></div>
 					</div>
 				))}
 			</section>
@@ -68,7 +67,7 @@ const TenagaPendidik = () => {
 									<p className="bg-[#EDF0FF] w-auto text-[#B8890B] text-xs lg:text-sm  rounded-full">
 										{t.jabatan}
 									</p>
-									<p className="text-sm lg:text-3xl font-semibold text-[#021B3E]">
+									<p className="text-sm lg:text-xl font-semibold text-[#021B3E]">
 										{t.name}
 									</p>
 								</div>

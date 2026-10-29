@@ -56,10 +56,10 @@ const Header = () => {
 							akademika sekolah.
 						</p>
 					</div>
-					<div className="hidden lg:flex gap-3 w-auto grid grid-cols-5">
+					<div className="hidden lg:grid gap-3 w-auto  grid-cols-5">
 						{catNews.map((c) => (
 							<>
-								<span className="text-md border border-gray-200 w-auto py-1 px-3  text-[#021B3E]   flex justify-center items-center gap-2 rounded-2xl">
+								<span className="text-md border border-gray-200 w-auto py-1 px-3 whitespace-nowrap text-[#021B3E]   flex justify-center items-center gap-2 rounded-2xl">
 									{c}
 									<span className="w-7 text-center h-7 bg-gray-200 text-[#021B3E] flex items-center justify-center rounded-full">
 										2
@@ -88,7 +88,7 @@ const Header = () => {
 							<CiSearch />
 						</span>
 					</div>
-					<div className="flex flex-col gap-3">
+					<div className="flex md:hidden flex-col gap-3">
 						<p className="text-sm text-[#021B3E] font-semibold">
 							KATEGORI BERITA
 						</p>
