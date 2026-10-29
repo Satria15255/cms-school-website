@@ -1,7 +1,7 @@
 import { MdOutlineLocationOn, MdOutlineLocalPhone } from "react-icons/md";
 import { LuClock, LuMail } from "react-icons/lu";
 import { PiListBold } from "react-icons/pi";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
 	const navigate = useNavigate();
