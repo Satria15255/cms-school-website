@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { AiTwotoneSound } from "react-icons/ai";
 import { CiShare2 } from "react-icons/ci";
+import type { NewsItem } from "@/datas/types/news";
 
-const Header = ({ news }) => {
+const Header = ({ news }: { news: NewsItem }) => {
 	const formattedDate = new Date(`${news.date}T00:00:00`).toLocaleDateString(
 		"id-ID",
 		{

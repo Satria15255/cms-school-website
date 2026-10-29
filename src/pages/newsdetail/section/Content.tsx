@@ -1,6 +1,7 @@
 import Participant from "./Participant";
+import type { NewsItem } from "@/datas/types/news";
 
-const Content = ({ news }) => {
+const Content = ({ news }: { news: NewsItem }) => {
 	return (
 		<main>
 			<article className="w-full space-y-5">

@@ -1,8 +1,8 @@
-import type { IconType } from "react-icons";
+import type { ReactNode } from "react";
 
 export interface schoolValueItem {
 	id: string;
-	icon: IconType;
+	icon: ReactNode;
 	title: string;
 	description: string;
 	description2: string;

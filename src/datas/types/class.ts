@@ -1,4 +1,4 @@
-export interface subClassItem {
+export interface SubClassItem {
 	kelas: string;
 	walikel: string;
 	classRoom: string;
@@ -14,5 +14,5 @@ export interface ClassItem {
 	phase: string;
 	description: string;
 	koord: string;
-	subClass: subClassItem[];
+	subClass: SubClassItem[];
 }

@@ -1,5 +1,4 @@
 import { Teacher } from "@/datas/TenagaPendidik";
-import type { TenagaPendidikItem } from "@/datas/types/tenagaPendidik";
 
 const TeacherSection = () => {
 	return (

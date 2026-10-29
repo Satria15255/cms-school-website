@@ -7,7 +7,7 @@ import type { schoolValueItem } from "./types/schoolValue";
 export const schoolValue: schoolValueItem[] = [
 	{
 		id: "SV-01",
-		icon: PiStudentDuotone,
+		icon: <PiStudentDuotone />,
 		title: "Pendidikan Holistik",
 		description:
 			"Membina akhlak, intelektual, dan ketangguhan mental siswa SMP secara seimbang dan berkelanjutan.",
@@ -15,7 +15,7 @@ export const schoolValue: schoolValueItem[] = [
 	},
 	{
 		id: "SV-02",
-		icon: HiUserGroup,
+		icon: <HiUserGroup />,
 		title: "Pendidik Berdedikasi",
 		description:
 			"Guru berkualifikasi yang mendampingi dengan teliti, menginspirasi, dan penuh empati pada tiap fase tumbuh kembang.",
@@ -23,7 +23,7 @@ export const schoolValue: schoolValueItem[] = [
 	},
 	{
 		id: "SV-03",
-		icon: IoShieldHalfOutline,
+		icon: <IoShieldHalfOutline />,
 		title: "Lingkungan Aman & Nyaman",
 		description:
 			"Sarana belajar kondusif, inklusif, ramah anak, dan mengutamakan kesejahteraan mental para pelajar.",
@@ -31,7 +31,7 @@ export const schoolValue: schoolValueItem[] = [
 	},
 	{
 		id: "SV-04",
-		icon: GiBookmarklet,
+		icon: <GiBookmarklet />,
 		title: "Pembelajaran Adaptif",
 		description:
 			"Kurikulum nasional yang diperkaya literasi digital, sains terapan, serta kepemimpinan masa depan.",

@@ -1,17 +1,15 @@
-import type { IconType } from "react-icons";
-
-export interface CtaContact {
-	ctaIcon: IconType;
-	text: string;
-}
+import type { ReactNode } from "react";
 
 export interface ContactItem {
 	id: string;
-	icon: IconType;
+	icon: ReactNode;
 	label: string;
 	title: string;
 	description: string;
 	contact: string;
 	contactDesc: string;
-	cta: CtaContact;
+	cta: {
+		ctaIcon: ReactNode;
+		text: string;
+	};
 }

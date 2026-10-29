@@ -1,9 +1,9 @@
 import { FaUsers } from "react-icons/fa";
 import { HiOutlineIdentification } from "react-icons/hi";
 import { PiCityDuotone } from "react-icons/pi";
-import type { ClassItem } from "@/datas/types/class";
+import type { SubClassItem } from "@/datas/types/class";
 
-const ClassCard = ({ details }: { details: ClassItem }) => {
+const ClassCard = ({ details }: { details: SubClassItem }) => {
 	return (
 		<main className="w-full  flex flex flex-col justify-around gap-5 h-70 md:h-90 rounded-lg p-4 md:p-8 border-[#F4BF46] border-t-8 shadow-lg">
 			<div className="w-full  flex items-center justify-between">

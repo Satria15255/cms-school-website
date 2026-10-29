@@ -1,6 +1,6 @@
 import type { ContactItem } from "@/datas/types/contact";
 
-const ContactCard = ({ data }: { data: ContactItem[] }) => {
+const ContactCard = ({ data }: { data: ContactItem }) => {
 	return (
 		<main className="min-h-100 w-full flex flex-col py-6 justify-between w-full shadow-2xl bg-white rounded-2xl p-5  ">
 			<div className="flex items-center justify-between">

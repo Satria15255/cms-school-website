@@ -58,7 +58,7 @@ const NewsDetailPage = () => {
 					<HumasContactLabel />
 				</div>
 			</section>
-			<RelatedNews news={news} />
+			<RelatedNews />
 			<HumasContactSection />
 		</main>
 	);

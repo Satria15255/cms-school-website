@@ -1,8 +1,9 @@
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 import { createSlug } from "@/utils/createSlug";
 import { Link } from "react-router-dom";
+import type { NewsItem } from "@/datas/types/news";
 
-const NewsCard = ({ data }) => {
+const NewsCard = ({ data }: { data: NewsItem }) => {
 	return (
 		<main className="w-full h-110 md:h-80 lg:h-140 bg-white rounded-lg  flex flex-col justify-between border border-gray-200 shadow-lg">
 			<div className="relative">

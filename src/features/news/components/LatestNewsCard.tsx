@@ -1,6 +1,7 @@
+import type { NewsItem } from "@/datas/types/news";
 import { LuArrowRight } from "react-icons/lu";
 
-const LatestNews = ({ news }) => {
+const LatestNews = ({ news }: { news: NewsItem }) => {
 	return (
 		<main className="w-full md:w-4/5 h-auto md:h-150 flex flex-col md:flex-row rounded-3xl border border-gray-100 bg-white">
 			<section className="w-full min-h-60 md:w-4/7">

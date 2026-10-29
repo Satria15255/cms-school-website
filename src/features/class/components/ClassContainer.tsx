@@ -1,6 +1,7 @@
 import ClassCard from "./ClassCard";
+import type { ClassItem } from "@/datas/types/class";
 
-const ClassContainer = ({ classList }) => {
+const ClassContainer = ({ classList }: { classList: ClassItem }) => {
 	return (
 		<main className="flex flex-col  gap-5 rounded-xl md:p-8">
 			<section className="w-full flex flex-col md:flex-row items-center">
