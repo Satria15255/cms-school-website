@@ -1,7 +1,7 @@
 const Affirmation = () => {
 	return (
 		<div className="h-auto  bg-[#EBF1FF] px-5 py-12 lg:px-8 flex justify-center items-center">
-			<div className="flex flex-col lg:flex-row lg:w-4/5 p-5 h-auto lg:h-3/5 py-12 justify-center space-y-7 items-center bg-white rounded-2xl">
+			<div className="flex flex-col lg:flex-row lg:w-4/5 p-5 h-auto lg:h-3/5 py-9 2xl:py-12 justify-center space-y-7 items-center bg-white rounded-2xl">
 				<div className="w-full lg:w-2/5 flex flex-col gap-3 lg:justify-center items-center relative">
 					<img
 						src="/kepsek.png"

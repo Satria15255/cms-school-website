@@ -29,7 +29,7 @@ const VisiMisi = () => {
 					</span>
 					VISI SEKOLAH
 				</p>
-				<h1 className="text-lg md:text-5xl text-white italic">
+				<h1 className="text-lg md:text-4xl 2xl:text-5xl text-white italic">
 					“Menjadi lembaga pendidikan menengah pertama unggulan yang
 					mencetak generasi bertakwa, berakhlak mulia, berprestasi
 					global, dan berakar pada kearifan budaya bangsa.”
@@ -42,7 +42,7 @@ const VisiMisi = () => {
 					FOKUS PEMBANGUNAN KARAKTER 2022 - RECENT
 				</p>
 			</section>
-			<section className="'flex flex-col  h-full w-full md:w-4/7 p-7 space-y-7">
+			<section className="'flex flex-col  h-full w-full md:w-4/7 p-7 xl:space-y-4 2xl:space-y-7">
 				<p className="flex gap-2 items-center text-lg text-[#B8890B]">
 					{" "}
 					<span>
@@ -50,10 +50,10 @@ const VisiMisi = () => {
 					</span>
 					MISI SEKOLAH
 				</p>
-				<h1 className="text-lg md:text-5xl font-serif text-[#021B3E]">
+				<h1 className="text-lg md:text-4xl 2xl:text-5xl font-serif text-[#021B3E]">
 					Langkah Strategis Pembinaan Pendidikan
 				</h1>
-				<div className="space-y-4">
+				<div className="space-y-3 2xl:space-y-4">
 					{misi.map((m) => (
 						<div className="flex gap-4 items-center md:max-w-2xl">
 							<div className="p-1 flex items-center justify-center bg-[#FFEFD5] rounded-full">

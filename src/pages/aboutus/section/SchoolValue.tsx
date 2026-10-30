@@ -13,7 +13,7 @@ const SchoolValue = () => {
 				{schoolValue.map((s) => (
 					<div
 						key={s.id}
-						className="bg-[#EBF1FF] flex flex-col space-y-4 lg:space-y-3 p-5 rounded-lg min-h-60 md:h-60 lg:h-80"
+						className="bg-[#EBF1FF] flex flex-col space-y-4 2xl:justify-around p-5 rounded-lg min-h-60 md:h-60 lg:h-80 xl:min-h-100 2xl:min-h-90"
 					>
 						<div className="bg-[#021B3E] p-2 w-15 h-15 xl:w-20 xl:h-20 flex justify-center rounded-lg items-center">
 							<p className=" text-[#F4BF46] text-2xl lg:text-4xl">
@@ -23,7 +23,7 @@ const SchoolValue = () => {
 						<p className=" text-[#021B3E] text-md md:text-sm  h-9 lg:h-15 lg:text-3xl font-semibold">
 							{s.title}
 						</p>
-						<p className="hidden md:block text-sm md:text-xs  lg:text-lg xl:text-xl text-black">
+						<p className="hidden md:block text-sm md:text-xs  lg:text-lg xl:text-lg 2xl:text-xl text-black">
 							{s.description}
 						</p>
 						<p className="text-sm lg:text-lg md:hidden text-black">
