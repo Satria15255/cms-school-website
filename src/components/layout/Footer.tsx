@@ -1,7 +1,10 @@
 import { MdOutlineLocationOn, MdOutlineLocalPhone } from "react-icons/md";
 import { LuClock, LuMail } from "react-icons/lu";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+	const navigate = useNavigate();
+
 	return (
 		<div className="bg-[#021B3E] min-h-50   w-full">
 			<div className="grid grid-cols-1 md:grid-cols-3 h-full w-full p-5 space-y-8 justify-between items-start py-12">
@@ -13,23 +16,48 @@ const Footer = () => {
 							UNGGUL & BERKARAKTER
 						</span>
 					</h1>
-					<p className="text-sm md:text-xs lg:lg:text-xl max-w-lg ">
+					<p className="text-sm md:text-xs xl:text-lg 2xl:lg:text-xl max-w-lg ">
 						{" "}
 						Mendidik generasi muda berakhlak mulia, berprestasi
 						akademik tinggi, serta berwawasan global berlandaskan
 						kearifan budaya nasional.
 					</p>
 				</div>
-				<div className="flex flex-col lg:pl-12 md:items-center text-left gap-3 text-white text-sm lg:text-lg">
+				<div className="flex flex-col  md:items-center text-left gap-3 text-white text-sm lg:text-lg">
 					<h1 className="text-2xl md:text-xl lg:text-3xl font-semibold h-10">
 						Tautan
 					</h1>
-					<div className="text-left space-y-2 text-sm md:text-xs lg:text-sm">
-						<ul>Home</ul>
-						<ul>About Us</ul>
-						<ul>Classes</ul>
-						<ul>News</ul>
-						<ul>Contact</ul>
+					<div className="text-left space-y-2 text-sm md:text-xs lg:text-lg">
+						<ul
+							className="hover:text-[#F4BF46] transition duration-200 cursor-pointer"
+							onClick={() => navigate("/")}
+						>
+							Home
+						</ul>
+						<ul
+							className="hover:text-[#F4BF46] transition duration-200 cursor-pointer"
+							onClick={() => navigate("/about-us")}
+						>
+							About Us
+						</ul>
+						<ul
+							className="hover:text-[#F4BF46] transition duration-200 cursor-pointer"
+							onClick={() => navigate("/class-list")}
+						>
+							Classes
+						</ul>
+						<ul
+							className="hover:text-[#F4BF46] transition duration-200 cursor-pointer"
+							onClick={() => navigate("/news")}
+						>
+							News
+						</ul>
+						<ul
+							className="hover:text-[#F4BF46] transition duration-200 cursor-pointer"
+							onClick={() => navigate("/contact")}
+						>
+							Contact
+						</ul>
 					</div>
 				</div>
 				<div className="flex flex-col gap-3 text-white text-sm md:text-xs lg:text-lg">

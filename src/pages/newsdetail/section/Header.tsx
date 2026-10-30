@@ -25,7 +25,7 @@ const Header = ({ news }: { news: NewsItem }) => {
 				{" / "}
 				<span className="text-gray-800">{news.title}</span>
 			</nav>
-			<div className="w-full flex justify-start ">
+			<div className="w-full flex justify-start md:hidden">
 				<Link
 					to="/news"
 					className="inline-flex items-center bg-blue-100 px-2 rounded-2xl font-semibold gap-2 font-medium
@@ -45,7 +45,7 @@ const Header = ({ news }: { news: NewsItem }) => {
 					{news.category}
 				</span>
 
-				<h1 className="text-3xl lg:text-7xl font-serif text-[#021B3E]">
+				<h1 className="text-3xl lg:text-6xl font-serif text-[#021B3E]">
 					{news.title}
 				</h1>
 
@@ -53,9 +53,9 @@ const Header = ({ news }: { news: NewsItem }) => {
 					{news.description}
 				</p>
 			</div>
-			<div className=" lg:my-8 h-1 w-20 rounded-full bg-amber-400" />
+			<div className="my-4 2xl:my-8 h-1 w-20 rounded-full bg-amber-400" />
 
-			<div className="bg-blue-100 w-full p-3 md:p-5 flex flex-col md:flex-row items-center my-6 md:my-12 rounded-xl">
+			<div className="bg-blue-100 w-full p-3 md:p-5 flex flex-col md:flex-row items-center my-6 2xl:my-12 rounded-xl">
 				<div className="flex items-center gap-3 w-full">
 					<span className="bg-[#021B3E] p-3 rounded-full text-xl lg:text-3xl text-white">
 						<AiTwotoneSound />

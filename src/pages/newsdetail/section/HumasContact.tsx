@@ -30,10 +30,10 @@ export const HumasContactSection = () => {
 						{" "}
 						PORTAL KOMUNIKASI PUBLIK
 					</p>
-					<h1 className="text-3xl lg:text-7xl font-serif text-white">
+					<h1 className="text-3xl lg:text-6xl font-serif text-white">
 						Memerlukan Konfirmasi atau Peliputan Kegiatan?
 					</h1>
-					<p className="text-sm lg:text-2xl max-w-7xl text-gray-200">
+					<p className="text-sm xl:text-lg 2xl:text-2xl max-w-7xl text-gray-200">
 						Tim Humas SMP Nusantara siap melayani konfirmasi data
 						warta, jadwal kunjungan studi tiru, maupun permohonan
 						narasumber riset pelajar.
