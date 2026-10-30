@@ -46,7 +46,7 @@ const Navbar = () => {
 						SMPN 2 Tambakrejo
 					</h1>
 				</div>
-				<div className="hidden md:flex text-sm lg:text-xl space-x-4">
+				<div className="hidden md:flex text-sm  xl:text-lg 2xl:text-xl space-x-4">
 					<ul
 						className="hover:text-[#F4BF46] transition duration-200 cursor-pointer"
 						onClick={() => navigate("/")}
@@ -79,7 +79,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 				<div className="hidden md:block">
-					<button className="px-5 py-3 bg-[#F4BF46] text-sm lg:text-xl rounded-lg text-black">
+					<button className="px-5 py-3 bg-[#F4BF46] text-sm xl:text-lg 2xl:text-xl rounded-lg text-black">
 						Hubungi Sekolah
 					</button>
 				</div>

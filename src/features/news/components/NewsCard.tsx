@@ -5,7 +5,7 @@ import type { NewsItem } from "@/datas/types/news";
 
 const NewsCard = ({ data }: { data: NewsItem }) => {
 	return (
-		<main className="w-full h-110 md:h-80 lg:h-140 bg-white rounded-lg  flex flex-col justify-between border border-gray-200 shadow-lg">
+		<main className="w-full h-110 md:h-80 lg:min-h-140 bg-white rounded-lg  flex flex-col justify-between border border-gray-200 shadow-lg">
 			<div className="relative">
 				<div className="w-full  h-50  md:h-40 lg:h-70 bg-gray-200 rounded-t-xl">
 					<img
@@ -27,10 +27,10 @@ const NewsCard = ({ data }: { data: NewsItem }) => {
 					</p>
 				</div>
 				<div className="flex flex-col gap-2">
-					<h1 className="text-xl min-h-15 md:text-sm lg:text-3xl">
+					<h1 className="text-xl min-h-15 md:text-sm lg:text-xl 2xl:text-3xl">
 						{data.title}
 					</h1>
-					<p className="text-xs md:hidden lg:block lg:text-lg text-gray-500">
+					<p className="text-xs md:hidden lg:block lg:text-sm 2xl:text-lg text-gray-500">
 						{" "}
 						{data.description}
 					</p>

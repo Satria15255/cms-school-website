@@ -7,7 +7,7 @@ const ClassList = () => {
 	const navigate = useNavigate();
 
 	return (
-		<main className="h-auto lg:h-screen p-5 flex flex-col justify-center lg:items-center space-y-8 w-full bg-[#EBF1FF]">
+		<main className="h-auto   p-5 flex flex-col justify-center lg:items-center space-y-8 w-full bg-[#EBF1FF]">
 			<header className="flex flex-col lg:items-center space-y-3">
 				<p className="text-sm font-semibold text-[#B8890B] ">
 					JENJANG PEMBINAAN
@@ -56,7 +56,7 @@ const ClassList = () => {
 			<div className="flex gap-4 w-full justify-center">
 				<button
 					onClick={() => navigate("/class-list")}
-					className="w-full lg:w-1/8 py-3 text-sm lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center"
+					className="w-full lg:w-2/8 2xl:w-1/8 py-3 text-sm lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center"
 				>
 					Lihat Semua Kelas <HiOutlineArrowSmallRight />
 				</button>

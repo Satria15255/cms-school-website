@@ -7,7 +7,7 @@ const NewsSection = () => {
 	const navigate = useNavigate();
 
 	return (
-		<main className="h-auto lg:h-screen flex p-5 flex-col justify-center items-center space-y-8 w-full bg-white">
+		<main className="h-auto   flex p-5 flex-col justify-center items-center space-y-8 w-full bg-white">
 			<header className="flex flex-col items-start space-y-3 w-full ">
 				<p className="text-sm font-semibold text-[#B8890B] ">
 					WARTA SEKOLAH

@@ -16,7 +16,7 @@ const HeroSection = () => {
 					</span>
 					PENDIDIKAN BERKARAKTER & BERPRESTASI
 				</p>
-				<h1 className="text-3xl lg:text-8xl font-serif">
+				<h1 className="text-3xl xl:text-6xl 2xl:text-7xl font-serif">
 					<span className="text-[#021B3E]">
 						Membimbing Generasi Muda,
 					</span>
@@ -50,15 +50,15 @@ const HeroSection = () => {
 					alt="heroImage"
 					className="rounded-lg w-full"
 				/>
-				<div className="absolute  bottom-8 left-8 bg-white w-full lg:w-1/2  xl:w-full rounded-lg flex items-center max-w-xs lg:max-w-3xl gap-5 p-3 lg:p-5">
+				<div className="absolute  bottom-8 left-8 bg-white w-full lg:w-1/2  2xl:w-full rounded-lg flex items-center max-w-xs lg:max-w-3xl gap-5 p-3 lg:p-5">
 					<div className="text-[#F4BF46] text-3xl">
 						<PiBookOpenUserBold />
 					</div>
 					<div className="flex flex-col gap-1">
-						<p className="text-sm lg:text-xl xl:text-3xl text-[#021B3E]">
+						<p className="text-sm xl:text-lg 2xl:text-3xl text-[#021B3E]">
 							Ruang Belajar Kolaboratif
 						</p>
-						<p className="text-xs lg:text-sm xl:text-lg text-gray-400">
+						<p className="text-xs  xl:text-sm 2xl:text-lg text-gray-400">
 							Mendukung eksplorasi literasi dan diskusi kelompok
 						</p>
 					</div>

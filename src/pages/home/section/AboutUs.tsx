@@ -26,13 +26,13 @@ const AboutUs = () => {
 					</span>
 					PROFIL SEKOLAH
 				</p>
-				<h1 className=" text-3xl lg:text-7xl font-serif">
+				<h1 className=" text-3xl xl:text-5xl 2xl:text-7xl font-serif">
 					<span className="text-[#021B3E]">
 						Membangun Karakter Luhur dan
 					</span>
 					<span className="text-[#B8890B]">Kecakapan abad 21</span>
 				</h1>
-				<p className="text-sm lg:text-xl text-gray-700 max-w-">
+				<p className="text-sm lg:text-lg 2xl:text-xl text-gray-600">
 					SMP Nusantara didirikan dengan komitmen menyelenggarakan
 					pendidikan menengah pertama yang berfokus pada kemandirian
 					berpikir, budi pekerti, dan penguasaan sains serta

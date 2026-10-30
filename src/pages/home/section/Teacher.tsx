@@ -46,13 +46,13 @@ const TeacherSection = () => {
 			<div className="flex gap-2 lg:gap-4 w-full justify-center">
 				<button
 					onClick={() => navigate("/about-us")}
-					className="w-1/2 lg:w-1/8 py-4 text-xs lg:text-lg bg-white text-[#021B3E] font-semibold rounded-xl border border-gray-200 flex gap-1 justify-center items-center"
+					className="w-1/2 lg:w-2/8 2xl:w-1/8 py-4 text-xs lg:text-lg bg-white text-[#021B3E] font-semibold rounded-xl border border-gray-200 flex gap-1 justify-center items-center"
 				>
 					Lihat Tenaga Pendidik
 				</button>
 				<button
 					onClick={() => navigate("/about-us")}
-					className="w-1/2 lg:w-1/8 py-4 text-xs lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center"
+					className="w-1/2 lg:w-2/8 2xl:w-1/8 py-4 text-xs lg:text-lg bg-[#021B3E] text-white rounded-xl font-semibold border border-gray-200 flex gap-1 justify-center items-center"
 				>
 					Lihat Struktur Organisasi
 				</button>
