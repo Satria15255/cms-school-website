@@ -9,10 +9,10 @@ const Contact = () => {
 						{" "}
 						TRANSPARASI & LAYANAN MEDIA
 					</p>
-					<h1 className="text-3xl lg:text-7xl font-serif text-white">
+					<h1 className="text-3xl lg:text-6xl font-serif text-white">
 						Informasi Publik & Konfirmasi Liputan
 					</h1>
-					<p className="text-sm lg:text-2xl max-w-7xl text-gray-200">
+					<p className="text-sm lg:text-xl 2xl:text-2xl max-w-7xl text-gray-200">
 						Seluruh warta, siaran pers resmi, dokumentasi kegiatan,
 						dan publikasi capaian prestasi di laman ini telah
 						diverifikasi oleh tim kehumasan dan pimpinan SMP
@@ -20,7 +20,7 @@ const Contact = () => {
 						membutuhkan keterangan lebih lanjut dapat menghubungi
 						bagian humas resmi sekolah.
 					</p>
-					<p className="text-sm font-semibold text-[#F4BF46]">
+					<p className="text-sm xl:text-lg font-semibold text-[#F4BF46]">
 						{" "}
 						humas@smpnusantara.sch.id
 					</p>
@@ -30,7 +30,7 @@ const Contact = () => {
 						<RiCustomerService2Line />
 						Hubungi Humas Sekolah
 					</button>
-					<p className="text-sm text-center text-gray-400 font-light lg:text-xl max-w-7xl ">
+					<p className="text-sm text-center text-gray-400 font-light lg:text-lg 2xl:text-xl max-w-7xl ">
 						Merespon Pertanyaan Jurnalistik & Legalitas Informasi
 						Sekolah
 					</p>

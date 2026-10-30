@@ -178,7 +178,7 @@ const Address = () => {
 					</div>
 				</div>
 
-				<div className="w-full ">
+				<div className="w-full z-0">
 					<LocationMap
 						lat={-6.48220915595435}
 						lng={106.72857206193093}

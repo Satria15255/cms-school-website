@@ -35,7 +35,7 @@ const Header = () => {
 					</p>
 				</div>
 			</section>
-			<section className="flex flex-col md:flex-row p-4 md:p-14">
+			<section className="flex flex-col md:flex-row p-4 xl:py-9 md:px-14">
 				<div className="w-full    space-y-5">
 					<div className="flex bg-[#EBF1FF] w-60 lg:w-70 px-2 py-1 rounded-sm gap-2 items-center">
 						<p className=" text-[#021B3E] flex  items-center gap-2 font-semibold text-sm lg:text-lg">
@@ -46,7 +46,7 @@ const Header = () => {
 						</p>
 					</div>
 					<div className="space-y-4">
-						<h1 className="text-3xl lg:text-7xl font-serif text-[#021B3E]">
+						<h1 className="text-3xl lg:text-6xl font-serif text-[#021B3E]">
 							Kabar, Agenda, dan Prestasi SMP Nusantara
 						</h1>
 						<p className="text-sm lg:text-xl text-gray-700 max-w-4xl">
@@ -56,10 +56,10 @@ const Header = () => {
 							akademika sekolah.
 						</p>
 					</div>
-					<div className="hidden lg:grid gap-3 w-auto  grid-cols-5">
+					<div className="hidden lg:grid gap-3 w-auto  grid-cols-4">
 						{catNews.map((c) => (
 							<>
-								<span className="text-md border border-gray-200 w-auto py-1 px-3 whitespace-nowrap text-[#021B3E]   flex justify-center items-center gap-2 rounded-2xl">
+								<span className="text-sm 2xl:text-md border border-gray-200 w-auto py-1 px-3 whitespace-nowrap text-[#021B3E]   flex justify-center items-center gap-2 rounded-2xl">
 									{c}
 									<span className="w-7 text-center h-7 bg-gray-200 text-[#021B3E] flex items-center justify-center rounded-full">
 										2

@@ -13,7 +13,7 @@ const ContactCard = ({ data }: { data: ContactItem }) => {
 				</span>
 			</div>
 			<div>
-				<h1 className="text-2xl lg:text-3xl text-[#021B3E] font-bold">
+				<h1 className="text-2xl 2xl:text-3xl text-[#021B3E] font-bold">
 					{" "}
 					{data.title}
 				</h1>

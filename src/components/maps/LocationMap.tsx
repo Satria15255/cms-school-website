@@ -53,19 +53,19 @@ export default function LocationMap({
         </Marker>
       </MapContainer>
 
-      <div className="p-5 grid grid-cols-1 lg:grid-cols-2 gap-3 w-full">
+      <div className="p-5 grid grid-cols-1 2xl:grid-cols-2 gap-3 w-full">
         <div className="flex flex-col w-full">
           <h1 className="text-3xl">Titik Koordinat Utama</h1>
           <p className="text-md text-gray-500">
             {lat}, {lng}
           </p>
         </div>
-        <div className="w-full flex justify-center gap-4 items-center">
+        <div className="w-full flex justify-center gap-4 items-center text-sm 2xl:text-lg">
           <a
             href={viewUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full flex gap-2 items-center justify-center p-3 bg-blue-100 rounded-xl text-center"
+            className="w-full flex gap-2 items-center justify-center p-3 bg-blue-100 whitespace-nowrap rounded-xl text-center"
           >
             <RiShareBoxFill />
             Google Maps
@@ -74,7 +74,7 @@ export default function LocationMap({
             href={directionsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full flex gap-2 items-center justify-center p-3 bg-[#F4BF46] rounded-xl text-center"
+            className="w-full flex gap-2 items-center justify-center whitespace-nowrap p-3 bg-[#F4BF46] rounded-xl text-center"
           >
             <IoNavigateOutline />
             Petunjuk Arah
