@@ -3,10 +3,10 @@ import { RxDashboard } from "react-icons/rx";
 
 const Header = () => {
 	return (
-		<main className="h-auto lg:h-150 bg-[#EBF1FF] md:mt-16 pt-16  flex flex-col md:flex-row items-center space-y-2 md:space-y-4  p-4 lg:p-14">
+		<main className="h-auto  2xl:min-h-150  bg-[#EBF1FF] md:mt-16 pt-16  flex flex-col md:flex-row items-center space-y-2 md:space-y-4  p-4 lg:p-14">
 			<div className="w-full  space-y-3  md:space-y-5">
-				<div>
-					<p className="text-sm">
+				<div className="text-xs xl:text-lg">
+					<p className=" ">
 						Beranda /{" "}
 						<span className="text-[#021B3E] font-semibold">
 							Daftar Kelas & Pembinaan
@@ -20,34 +20,34 @@ const Header = () => {
 					</p>
 				</div>
 				<div className="space-y-4">
-					<h1 className="text-3xl lg:text-7xl font-serif text-[#021B3E]">
+					<h1 className="text-3xl lg:text-6xl font-serif text-[#021B3E]">
 						Daftar Kelas & Wali Kelas SMP Nusantara
 					</h1>
-					<p className="text-sm lg:text-xl text-gray-700 max-w-4xl">
+					<p className="text-sm lg:text-lg text-gray-700 max-w-4xl">
 						Penataan rombongan belajar jenjang VII, VIII, dan IX
 						yang terstruktur dengan pendampingan intensif dari wali
 						kelas berdedikasi untuk memantau perkembangan akademik,
 						karakter, serta kesejahteraan peserta didik.
 					</p>
 				</div>
-				<div className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-5 w-full  ">
+				<div className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-5 w-full text-sm 2xl:text-lg ">
 					<div className="border w-full bg-[#021B3E]  py-2   text-center border-gray-200 rounded-full flex justify-center items-center gap-1 text-[#F4BF46]">
-						<p className="text-white text-sm lg:text-lg font-semibold whitespace-nowrap">
+						<p className="text-white   font-semibold whitespace-nowrap">
 							Semua Jenjang
 						</p>
 					</div>
 					<div className="border w-full py-2 px-3 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
-						<p className="text-[#021B3E] text-sm lg:text-lg font-semibold  whitespace-nowrap">
+						<p className="text-[#021B3E]  font-semibold  whitespace-nowrap">
 							Kelas VII (Fase Fondasi)
 						</p>
 					</div>
 					<div className="border w-full   py-2 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
-						<p className="text-[#021B3E] text-sm lg:text-lg font-semibold whitespace-nowrap">
+						<p className="text-[#021B3E]   font-semibold whitespace-nowrap">
 							Kelas VIII (Fase Penguatan)
 						</p>
 					</div>
 					<div className="border w-full   py-2 bg-white text-center border-gray-200 rounded-full flex items-center justify-center gap-1 text-[#F4BF46]">
-						<p className="text-[#021B3E] text-sm lg:text-lg font-semibold whitespace-nowrap">
+						<p className="text-[#021B3E]   font-semibold whitespace-nowrap">
 							Kelas IX (Fase Pemantapan)
 						</p>
 					</div>

@@ -5,7 +5,7 @@ import Contact from "@/pages/home/section/ContactSection";
 
 const ClassList = () => {
 	return (
-		<main>
+		<main className="pt-12">
 			<Header />
 			<ClassSection />
 			<StandarPembinaan />

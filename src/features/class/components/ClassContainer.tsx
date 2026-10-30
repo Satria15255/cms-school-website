@@ -14,7 +14,9 @@ const ClassContainer = ({ classList }: { classList: ClassItem }) => {
 						Jenjang Kelas {classList.symbol} (Fase {classList.phase}
 						)
 					</h1>
-					<p className="text-sm max-w-xl">{classList.description}</p>
+					<p className="text-sm xl:text-lg max-w-xl">
+						{classList.description}
+					</p>
 				</div>
 				<div className="w-full md:w-2/5 flex justify-end rounded-xl my-4">
 					<div className="  w-90 gap-3 rounded-lg p-3 flex bg-[#EBF1FF]">

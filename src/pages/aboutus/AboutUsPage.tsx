@@ -9,7 +9,7 @@ import Contact from "@/pages/home/section/ContactSection";
 
 const AboutUsPage = () => {
 	return (
-		<div className="flex flex-col space-y-8">
+		<div className="flex flex-col space-y-8 pt-12">
 			<Header />
 			<History />
 			<VisiMisi />
